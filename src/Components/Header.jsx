@@ -3,11 +3,12 @@ import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import {Button, IconButton, Menu, Typography} from "@mui/material";
+import Link from "@mui/material/Link";
+import MenuItem from '@mui/material/MenuItem';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -43,45 +44,145 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
         transition: theme.transitions.create('width'),
         width: '100%',
         [theme.breakpoints.up('sm')]: {
-            width: '18ch',
+            width: '12ch',
             '&:focus': {
-                width: '24ch',
+                width: '20ch',
             },
         },
     },
 }));
 
-export default function SearchAppBar() {
+export default function Header() {
+
+    const [anchorElNav, setAnchorElNav] = React.useState(null);
+
+    const handleOpenNavMenu = (event) => {
+        setAnchorElNav(event.currentTarget);
+    };
+
+    const handleCloseNavMenu = () => {
+        setAnchorElNav(null);
+    };
+
+    const pages = [
+        ['main', '/'],
+        ['about', '/']
+    ]
+
     return (
-        <Box sx={{flexGrow: 1}}>
-            <AppBar
-                position="static"
-                sx={{backgroundColor: 'darkgrey', color : 'black'}}
-            >
+        <Box sx={{ flexGrow: 1}}>
+            <AppBar position="static">
                 <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="open drawer"
-                        sx={{ mr: 2 }}
+                    <Box
+                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                     >
-                        <MenuIcon />
-                    </IconButton>
+                        <IconButton
+                            size="large"
+                            aria-label="account of current user"
+                            aria-controls="menu-appbar"
+                            aria-haspopup="true"
+                            onClick={handleOpenNavMenu}
+                            color="inherit"
+                        >
+                            <MenuIcon />
+                        </IconButton>
+                        <Menu
+                            id="menu-appbar"
+                            anchorEl={anchorElNav}
+                            anchorOrigin={{
+                                vertical: 'bottom',
+                                horizontal: 'left',
+                            }}
+                            keepMounted
+                            transformOrigin={{
+                                vertical: 'top',
+                                horizontal: 'left',
+                            }}
+                            open={Boolean(anchorElNav)}
+                            onClose={handleCloseNavMenu}
+                            sx={{
+                                display: { xs: 'block', md: 'none' },
+                            }}
+                        >
+                            {pages.map((page) => (
+                                <MenuItem key={page[0]} onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">
+                                        <Link href="#">
+                                            {page[0]}
+                                        </Link>
+                                    </Typography>
+                                </MenuItem>
+                            ))}
+                            {
+                                <MenuItem key={4}>
+
+                                    <Typography
+                                        textAlign="center"
+                                    >
+                                        change
+                                    </Typography>
+                                </MenuItem>
+                            }
+                        </Menu>
+                    </Box>
                     <Typography
-                        variant="h6"
+                        variant="body1"
                         noWrap
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        Создатели международных корпораций
+                        <Link
+                            href="#"
+                            color = "inherit"
+                            variant="h6"
+                            sx={{
+                                marginRight: 4,
+                                textDecoration : "none"
+                            }}
+                        >
+                            Создатели международных корпораций
+                        </Link>
+
+                        <Link
+                            href="#"
+                            color = "inherit"
+                            sx={{
+                                display: { sm: 'none', md: 'inline' },
+                                marginRight: 2,
+                                textDecoration : "none"
+                            }}
+                        >
+                            Главная
+                        </Link>
+                        <Link
+                            href="#"
+                            color = "inherit"
+                            sx={{
+                                display: { sm: 'none', md: 'inline' },
+                                marginRight: 2,
+                                textDecoration : "none"
+                            }}
+                        >
+                            О портале
+                        </Link>
+                        <Button
+                            color="inherit"
+                            sx={{
+                                display: { sm: 'none', md: 'inline' },
+                                padding: '0',
+                                fontSize: '1rem',
+                                textDecoration : "none"
+                            }}
+                        >
+                            Изменить язык
+                        </Button>
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
                             <SearchIcon />
                         </SearchIconWrapper>
                         <StyledInputBase
-                            placeholder="Поиск..."
+                            placeholder="Поиск"
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </Search>

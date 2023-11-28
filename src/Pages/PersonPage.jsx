@@ -11,7 +11,6 @@ const PersonPage = () => {
     const personId = 0;
 
     const persons = t("persons", { returnObjects: true });
-    console.log(persons)
 
     return (
         <div>

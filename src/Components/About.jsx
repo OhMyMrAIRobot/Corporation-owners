@@ -1,4 +1,4 @@
-import { Typography, useTheme } from '@mui/material'
+import { Typography, useTheme} from '@mui/material'
 import Container from '@mui/material/Container'
 
 export function About() {

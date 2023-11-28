@@ -1,0 +1,19 @@
+.NavLink{
+    color: inherit;
+    padding: 0;
+    font-size: 1rem;
+    text-decoration : none;
+    margin-right: 1rem;
+}
+
+.NavTitle{
+    color: inherit;
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.MobileLink{
+    color: inherit;
+    text-decoration : none;
+}

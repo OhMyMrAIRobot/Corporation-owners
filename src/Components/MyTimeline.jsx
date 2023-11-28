@@ -8,8 +8,6 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 
-
-
 export default function MyTimeline({items}) {
     return (
         <>

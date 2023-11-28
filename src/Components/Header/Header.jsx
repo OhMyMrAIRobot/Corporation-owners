@@ -6,9 +6,10 @@ import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import {Button, IconButton, Menu, Typography} from "@mui/material";
-import Link from "@mui/material/Link";
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
+import {Link} from "react-router-dom";
+import "./Header.css"
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -65,8 +66,9 @@ export default function Header() {
     };
 
     const pages = [
-        ['main', '/'],
-        ['about', '/']
+        ['Создатели международных корпораций', '/'],
+        ['Деятели', '/Personlist'],
+        ['О портале','/About'],
     ]
 
     return (
@@ -106,21 +108,17 @@ export default function Header() {
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page[0]} onClick = {handleCloseNavMenu}>
-                                    <Typography textAlign="center">
-                                        <Link href="#">
-                                            {page[0]}
-                                        </Link>
-                                    </Typography>
+                                    <Link
+                                        to = {page[1]}
+                                        className = "MobileLink"
+                                    >
+                                        {page[0]}
+                                    </Link>
                                 </MenuItem>
                             ))}
                             {
                                 <MenuItem key={4}>
-
-                                    <Typography
-                                        textAlign="center"
-                                    >
-                                        change
-                                    </Typography>
+                                        Изменить язык
                                 </MenuItem>
                             }
                         </Menu>
@@ -132,36 +130,21 @@ export default function Header() {
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
                         <Link
-                            href="#"
-                            color = "inherit"
-                            variant="h6"
-                            sx={{
-                                marginRight: 4,
-                                textDecoration : "none"
-                            }}
+                            to = "/"
+                            className = "NavTitle"
                         >
                             Создатели международных корпораций
                         </Link>
 
                         <Link
-                            href="#"
-                            color = "inherit"
-                            sx={{
-                                display: { sm: 'none', md: 'inline' },
-                                marginRight: 2,
-                                textDecoration : "none"
-                            }}
+                            to = "/Personlist"
+                            className = "NavLink"
                         >
                             Деятели
                         </Link>
                         <Link
-                            href="#"
-                            color = "inherit"
-                            sx={{
-                                display: { sm: 'none', md: 'inline' },
-                                marginRight: 2,
-                                textDecoration : "none"
-                            }}
+                            to = "/About"
+                            className = "NavLink"
                         >
                             О портале
                         </Link>

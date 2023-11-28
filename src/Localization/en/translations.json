@@ -1,0 +1,59 @@
+{
+  "fullName": "Полное имя: ",
+  "age" : "Возраст: ",
+  "birthdayDate": "Дата рождения: ",
+  "deathDate": "Дата смерти: ",
+  "birthdayPlace": "Место рождения: ",
+  "nationality": "Гражданство: ",
+  "activity": "Род деятельности: ",
+  "persons": [
+    {
+      "id": 1,
+      "name": "Name Surname ru",
+      "age": 99,
+      "birthdayDate": "23 октября 2018",
+      "deathDate": "23 октября 2018",
+      "birthdayPlace": "Сан-Франциско, Калифорния",
+      "nationality": "США",
+      "activity": "не придумал",
+      "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
+      "photo": "../Images/img.png",
+      "instagram": "",
+      "twitter": "",
+      "wiki": "",
+      "youtube": "",
+      "map": "",
+      "timelineItems": [{
+        "timelineYears": "2001—2006",
+        "timelineTitle": "Lorem ipsum dolor",
+        "timelineSubtitle":"Sit voluptas Quis",
+        "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+      },
+        {
+          "timelineYears": "2002—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2003—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2004—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2005—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        }
+      ]
+    }
+  ]
+}

@@ -105,7 +105,7 @@ export default function Header() {
                             }}
                         >
                             {pages.map((page) => (
-                                <MenuItem key={page[0]} onClick={handleCloseNavMenu}>
+                                <MenuItem key={page[0]} onClick = {handleCloseNavMenu}>
                                     <Typography textAlign="center">
                                         <Link href="#">
                                             {page[0]}
@@ -152,7 +152,7 @@ export default function Header() {
                                 textDecoration : "none"
                             }}
                         >
-                            Главная
+                            Деятели
                         </Link>
                         <Link
                             href="#"
@@ -182,7 +182,7 @@ export default function Header() {
                             <SearchIcon />
                         </SearchIconWrapper>
                         <StyledInputBase
-                            placeholder="Поиск"
+                            placeholder="Поиск..."
                             inputProps={{ 'aria-label': 'search' }}
                         />
                     </Search>

@@ -13,13 +13,14 @@ export function Author({path, name, link}) {
             margin='auto'
         >
             <Box
-                style={{ height: '9.em', width: '10.5em' }}
+                style={{
+                    height: '9.em',
+                    width: '10.5em'
+            }}
                 display='flex'
                 justifyContent='center'
             >
-                <img
-                    src={path}
-                    alt={name}
+                <img src={path} alt={name}
                     height={'150em'}
                     width={'150em'}
                     style={{

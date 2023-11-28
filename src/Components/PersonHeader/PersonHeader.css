@@ -1,0 +1,12 @@
+.biography{
+    font-size: 1.2rem;
+    margin-top: 0.5em;
+}
+
+.biography:first-child{
+    margin-top: 0;
+}
+
+.biography:last-child{
+    margin-top: 2em;
+}

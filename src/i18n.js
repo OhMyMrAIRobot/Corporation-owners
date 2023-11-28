@@ -7,7 +7,7 @@ i18next
     .use(initReactI18next)
     .init({
     debug: true,
-    fallbackLng: "ru",
+    fallbackLng: "en",
     defaultNS: "ns1",
     resources: {
         en: {

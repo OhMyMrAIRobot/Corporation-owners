@@ -10,6 +10,7 @@ import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Link} from "react-router-dom";
 import "./Header.css"
+import i18n from "../../i18n";
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -54,6 +55,19 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function Header() {
+
+    const swapLanguage = () => {
+        if (i18n.language === 'en') {
+            i18n.changeLanguage('ru')
+        } else {
+            i18n.changeLanguage('en')
+        }
+    }
+
+    const swapLanguageMenuWrapper = () => {
+        swapLanguage()
+        handleCloseNavMenu()
+    }
 
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -117,7 +131,7 @@ export default function Header() {
                                 </MenuItem>
                             ))}
                             {
-                                <MenuItem key={4}>
+                                <MenuItem key={4} onClick={swapLanguageMenuWrapper}>
                                         Изменить язык
                                 </MenuItem>
                             }
@@ -150,6 +164,7 @@ export default function Header() {
                         </Link>
                         <Button
                             color="inherit"
+                            onClick={swapLanguage}
                             sx={{
                                 display: { sm: 'none', md: 'inline' },
                                 padding: '0',

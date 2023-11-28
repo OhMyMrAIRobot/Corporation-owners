@@ -1,6 +1,6 @@
 {
-  "fullName": "Полное имя: ",
-  "age" : "Возраст: ",
+  "fullName": "Full name: ",
+  "age" : "Age: ",
   "birthdayDate": "Дата рождения: ",
   "deathDate": "Дата смерти: ",
   "birthdayPlace": "Место рождения: ",
@@ -9,7 +9,7 @@
   "persons": [
     {
       "id": 1,
-      "name": "Name Surname ru",
+      "name": "Name Surname en",
       "age": 99,
       "birthdayDate": "23 октября 2018",
       "deathDate": "23 октября 2018",

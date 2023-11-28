@@ -9,12 +9,14 @@ import PersonPage from "./Pages/PersonPage";
 import AboutPage from "./Pages/AboutPage";
 import {Route, Routes} from "react-router-dom";
 import PersonListPage from "./Pages/PersonListPage";
+import {I18nextProvider} from "react-i18next";
+import i18next from './i18n'
 
 const theme = createTheme(themeOptions);
 
 function App() {
    return(
-       <>
+       <I18nextProvider i18n={i18next}>
        <ThemeProvider theme={theme}>
            <div
                style={{
@@ -37,7 +39,7 @@ function App() {
                </Routes>
            </div>
        </ThemeProvider>
-       </>
+       </I18nextProvider>
    )
 }
 

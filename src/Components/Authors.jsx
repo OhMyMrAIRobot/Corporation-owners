@@ -5,9 +5,9 @@ import {Author} from "./Author";
 export function Authors() {
 
     const authors = [
-        { path: "../Images/img111.png", name: 'author1', link: '/' },
-        { path: "../Images/img111.png", name: 'author2', link: '/' },
-        { path: "../Images/img111.png", name: 'author3', link: '/' },
+        { path: "../Images/img111.png", name: 'author1', link: 'https://github.com/' },
+        { path: "../Images/img111.png", name: 'author2', link: 'https://github.com/' },
+        { path: "../Images/img111.png", name: 'author3', link: 'https://github.com/' },
     ]
 
     return (

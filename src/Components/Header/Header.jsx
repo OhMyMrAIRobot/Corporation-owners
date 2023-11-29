@@ -11,6 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import {Link} from "react-router-dom";
 import "./Header.css"
 import i18n from "../../i18n";
+import {Link as MyLink} from '@mui/material'
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -90,7 +91,10 @@ export default function Header() {
             <AppBar position="static">
                 <Toolbar>
                     <Box
-                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+                        sx={{
+                            flexGrow: 1,
+                            display: { xs: 'flex', md: 'none' },
+                    }}
                     >
                         <IconButton
                             size="large"
@@ -162,18 +166,15 @@ export default function Header() {
                         >
                             О портале
                         </Link>
-                        <Button
-                            color="inherit"
+
+                        <MyLink
+                            color = 'secondary'
+                            className = "NavLink"
                             onClick={swapLanguage}
-                            sx={{
-                                display: { sm: 'none', md: 'inline' },
-                                padding: '0',
-                                fontSize: '1rem',
-                                textDecoration : "none"
-                            }}
                         >
                             Изменить язык
-                        </Button>
+                        </MyLink>
+
                     </Typography>
                     <Search>
                         <SearchIconWrapper>

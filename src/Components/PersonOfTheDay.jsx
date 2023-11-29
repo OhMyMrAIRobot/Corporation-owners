@@ -80,7 +80,7 @@ const PersonOfTheDay = () => {
                     textAlign: "center",
                 }}
             >
-                Создатель дня
+                Деятель дня
             </Typography>
             {TitleText}
             {DescriptionText}

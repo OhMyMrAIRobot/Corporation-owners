@@ -1,10 +1,12 @@
 import React from 'react';
+import MainContainer from "../Components/MainContainer";
+import PersonGrid from "../Components/PersonGrid/PersonGrid";
 
 const PersonListPage = () => {
     return (
-        <div>
-            тут все челики
-        </div>
+        <MainContainer>
+            <PersonGrid/>
+        </MainContainer>
     );
 };
 

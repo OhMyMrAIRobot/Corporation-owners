@@ -4,6 +4,8 @@
     font-size: 1rem;
     text-decoration : none;
     margin-right: 1rem;
+    cursor: pointer;
+    user-select:none;
 }
 
 .NavTitle{

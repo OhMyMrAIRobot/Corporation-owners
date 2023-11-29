@@ -1,60 +1,59 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
 import {useTranslation} from "react-i18next";
-import {useParams} from "react-router-dom";
 import './PersonGrid.css'
+import MainContainer from "../MainContainer";
+import {Box, Card, CardActionArea, CardContent, CardMedia, Typography} from "@mui/material";
+import {useNavigate} from "react-router-dom";
 
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
+
+const Item = ({person}) => {
+    const { t } = useTranslation();
+    const navigate = useNavigate();
+    return(
+        <Card className = "cardPerson">
+            <CardActionArea
+                onClick={() => {
+                    navigate(`/Person`);
+                    window.scrollTo(0, 0);
+                }}
+            >
+                <CardMedia
+                    component="img"
+                    height="auto"
+                    src={person.photo}
+                    alt="photo"
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                        {person.name}
+                    </Typography>
+                    <Typography variant="body1" component="div">
+                        {t("age")}{person.age}
+                    </Typography>
+                    {/*<Typography variant="body1" color="text.secondary">*/}
+                    {/*    {person.description}*/}
+                    {/*</Typography>*/}
+                </CardContent>
+            </CardActionArea>
+        </Card>
+    );
+}
+
+
 
 export default function PersonGrid() {
 
     const { t } = useTranslation();
-    const params = useParams();
-    const personId = 0;
 
     const persons = t("persons", { returnObjects: true });
 
     return (
-        <Box
-        >
-            <Box sx={{ flexGrow: 1 }}>
-                <Grid
-                    sx = {{
-                        cursor: "pointer"
-                    }}
-                    container spacing={8}>
-                    <Grid item xs={6}>
-                        <Item>
-                            <img className = "PersonImg"
-                                src = "../Images/img.png"/>
-                            {persons[0].name}
-                        </Item>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Item>
-                            <img className = "PersonImg"
-                                 src = "../Images/img_2.png"/>
-                            {persons[0].name}
-                        </Item>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Item>{persons[0].name}</Item>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Item>{persons[0].name}</Item>
-                    </Grid>
-
-                </Grid>
+        <MainContainer>
+            <Box class = "BoxItems">
+                <Item person={persons[0]}/>
+                <Item person={persons[0]}/>
+                <Item person={persons[0]}/>
             </Box>
-        </Box>
+        </MainContainer>
     );
 }

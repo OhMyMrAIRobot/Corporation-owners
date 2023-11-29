@@ -33,9 +33,9 @@ function App() {
                    <Header/>
                </Box>
                <Routes>
+                   <Route path="/" element={<MainPage />} />
                    <Route path="/About" element={<AboutPage />} />
                    <Route path="/Personlist" element={<PersonListPage />} />
-                   <Route path="/" element={<MainPage />} />
                    <Route path = "/Person" element={<PersonPage/>} />
                </Routes>
                <Footer/>

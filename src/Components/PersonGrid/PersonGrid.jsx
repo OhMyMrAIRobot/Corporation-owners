@@ -10,7 +10,12 @@ const Item = ({person}) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
     return(
-        <Card className = "cardPerson">
+        <Card className = "cardPerson" sx = {{
+            backgroundColor: 'inherit',
+            boxShadow: '-moz-initial',
+            WebkitBoxShadow: '5px 6px 10px grey'
+        }}
+            >
             <CardActionArea
                 onClick={() => {
                     navigate(`/Person`);
@@ -22,6 +27,7 @@ const Item = ({person}) => {
                     height="auto"
                     src={person.photo}
                     alt="photo"
+
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">

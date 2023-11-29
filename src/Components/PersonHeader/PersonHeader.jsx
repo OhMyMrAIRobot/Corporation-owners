@@ -5,7 +5,7 @@ import {t} from "i18next";
 
 const PersonHeader = ({person}) => {
     return (
-        <div >
+        <div>
             <Typography
                 mx ={{
                     marginTop: '0.5em'
@@ -31,7 +31,11 @@ const PersonHeader = ({person}) => {
                     <img
                         src={person.photo}
                         alt={person.name}
-                        width={'100%'}
+                        width='100%'
+                        style={{
+                            boxShadow: '-moz-initial',
+                            WebkitBoxShadow: '5px 6px 50px grey'
+                    }}
                     />
 
                     <Typography
@@ -91,7 +95,6 @@ const PersonHeader = ({person}) => {
                     </Typography>
                 </Box>
             </Box>
-
         </div>
     );
 };

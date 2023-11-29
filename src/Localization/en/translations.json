@@ -18,6 +18,7 @@
       "activity": "не придумал",
       "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
       "photo": "../Images/img.png",
+      "images": ["../Images/img.png", "../Images/img.png", "../Images/img.png"],
       "instagram": "",
       "twitter": "",
       "wiki": "",

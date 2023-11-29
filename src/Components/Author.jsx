@@ -6,7 +6,10 @@ export function Author({path, name, link}) {
 
     return (
         <Box
-            style={{ height: '15em', width: '12.5em' }}
+            style={{
+                height: '15em',
+                width: '12.5em'
+        }}
             display='flex'
             alignItems='center'
             flexDirection='column'

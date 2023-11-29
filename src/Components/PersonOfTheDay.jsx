@@ -7,11 +7,8 @@ import {useNavigate, useParams} from "react-router-dom";
 
 const PersonOfTheDay = () => {
     const { t } = useTranslation();
-    const params = useParams();
-    const personId = 0;
-
     const navigate = useNavigate()
-
+    const personId = 0;
     const persons = t("persons", { returnObjects: true });
 
     const MoreButton = (
@@ -19,6 +16,7 @@ const PersonOfTheDay = () => {
             variant="contained"
             onClick={() => {
                 navigate(`/Person`)
+                window.scrollTo(0, 0);
             }}
             sx={{
                 marginTop: '1em',

@@ -73,6 +73,7 @@ const PersonOfTheDay = () => {
                 color='text.primary'
                 gutterBottom
                 sx={{
+                    marginTop: '2em',
                     fontStyle: "oblique",
                     fontWeight: "medium",
                     textAlign: "center",

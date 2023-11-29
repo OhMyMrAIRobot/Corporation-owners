@@ -1,15 +1,17 @@
 {
-  "fullName": "Full name: ",
-  "age" : "Age: ",
+  "fullName": "Полное имя: ",
+  "age" : "Возраст: ",
   "birthdayDate": "Дата рождения: ",
   "deathDate": "Дата смерти: ",
   "birthdayPlace": "Место рождения: ",
   "nationality": "Гражданство: ",
   "activity": "Род деятельности: ",
+  "photo": "Фотографии",
+  "timeline": "Временная шкала",
   "persons": [
     {
       "id": 1,
-      "name": "Name Surname en",
+      "name": "Name Surname ru",
       "age": 99,
       "birthdayDate": "23 октября 2018",
       "deathDate": "23 октября 2018",
@@ -18,6 +20,7 @@
       "activity": "не придумал",
       "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
       "photo": "../Images/img.png",
+      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_1.png"],
       "instagram": "",
       "twitter": "",
       "wiki": "",

@@ -12,11 +12,7 @@ export function About() {
     }
 
     return (
-        <Container
-            sx={{
-                marginBottom: 20,
-            }}
-        >
+        <Container>
             <Typography
                 variant="h2"
                 align="center"

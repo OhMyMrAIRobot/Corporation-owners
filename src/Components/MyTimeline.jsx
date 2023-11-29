@@ -8,6 +8,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 
+
 export default function MyTimeline({items}) {
     return (
         <>
@@ -15,13 +16,17 @@ export default function MyTimeline({items}) {
             <Timeline
                 position="alternate"
                 sx ={{
-                    marginTop: '5em'
+                    marginTop: '1em'
                 }}
             >
                 <TimelineItem>
                     <TimelineOppositeContent
-                        sx={{ m: 'auto 0' }}
-                        align="right"
+                        sx = {{
+                            textAlign: 'right',
+                            margin: 'auto 0',
+                            fontStyle: 'oblique',
+                            fontWeight: '500',
+                        }}
                         variant="h6"
                         color="primary"
                     >
@@ -37,25 +42,32 @@ export default function MyTimeline({items}) {
                         py: '12px', px: 2
                     }}>
                         <Typography
+                            sx = {{
+                                fontStyle: 'oblique',
+                                fontWeight: '700',
+                            }}
                             variant="h5"
-                            fontWeight={"bold"}
                         >
                             {items[0].timelineTitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '600',
                                 marginTop: '0.5em',
                             }}
                             variant = "h6"
-                            fontWeight={"bold"}
                         >
                             {items[0].timelineSubtitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '500',
                                 marginTop: '0.5em',
+                                textAlign: 'justify',
                             }}
                         >
                             {items[0].timelineText}
@@ -66,8 +78,12 @@ export default function MyTimeline({items}) {
 
                 <TimelineItem>
                     <TimelineOppositeContent
-                        sx={{ m: 'auto 0' }}
-                        align="right"
+                        sx = {{
+                            textAlign: 'right',
+                            margin: 'auto 0',
+                            fontStyle: 'oblique',
+                            fontWeight: '500',
+                        }}
                         variant="h6"
                         color="primary"
                     >
@@ -83,25 +99,32 @@ export default function MyTimeline({items}) {
                         py: '12px', px: 2
                     }}>
                         <Typography
+                            sx = {{
+                                fontStyle: 'oblique',
+                                fontWeight: '700',
+                            }}
                             variant="h5"
-                            fontWeight={"bold"}
                         >
                             {items[1].timelineTitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '600',
                                 marginTop: '0.5em',
                             }}
                             variant = "h6"
-                            fontWeight={"bold"}
                         >
                             {items[1].timelineSubtitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '500',
                                 marginTop: '0.5em',
+                                textAlign: 'justify',
                             }}
                         >
                             {items[1].timelineText}
@@ -112,8 +135,12 @@ export default function MyTimeline({items}) {
 
                 <TimelineItem>
                     <TimelineOppositeContent
-                        sx={{ m: 'auto 0' }}
-                        align="right"
+                        sx = {{
+                            textAlign: 'right',
+                            margin: 'auto 0',
+                            fontStyle: 'oblique',
+                            fontWeight: '500',
+                        }}
                         variant="h6"
                         color="primary"
                     >
@@ -129,25 +156,32 @@ export default function MyTimeline({items}) {
                         py: '12px', px: 2
                     }}>
                         <Typography
+                            sx = {{
+                                fontStyle: 'oblique',
+                                fontWeight: '700',
+                            }}
                             variant="h5"
-                            fontWeight={"bold"}
                         >
                             {items[2].timelineTitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '600',
                                 marginTop: '0.5em',
                             }}
                             variant = "h6"
-                            fontWeight={"bold"}
                         >
                             {items[2].timelineSubtitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '500',
                                 marginTop: '0.5em',
+                                textAlign: 'justify',
                             }}
                         >
                             {items[2].timelineText}
@@ -158,8 +192,12 @@ export default function MyTimeline({items}) {
 
                 <TimelineItem>
                     <TimelineOppositeContent
-                        sx={{ m: 'auto 0' }}
-                        align="right"
+                        sx = {{
+                            textAlign: 'right',
+                            margin: 'auto 0',
+                            fontStyle: 'oblique',
+                            fontWeight: '500',
+                        }}
                         variant="h6"
                         color="primary"
                     >
@@ -175,25 +213,32 @@ export default function MyTimeline({items}) {
                         py: '12px', px: 2
                     }}>
                         <Typography
+                            sx = {{
+                                fontStyle: 'oblique',
+                                fontWeight: '700',
+                            }}
                             variant="h5"
-                            fontWeight={"bold"}
                         >
                             {items[3].timelineTitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '600',
                                 marginTop: '0.5em',
                             }}
                             variant = "h6"
-                            fontWeight={"bold"}
                         >
                             {items[3].timelineSubtitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '500',
                                 marginTop: '0.5em',
+                                textAlign: 'justify',
                             }}
                         >
                             {items[3].timelineText}
@@ -204,8 +249,12 @@ export default function MyTimeline({items}) {
 
                 <TimelineItem>
                     <TimelineOppositeContent
-                        sx={{ m: 'auto 0' }}
-                        align="right"
+                        sx = {{
+                            textAlign: 'right',
+                            margin: 'auto 0',
+                            fontStyle: 'oblique',
+                            fontWeight: '500',
+                        }}
                         variant="h6"
                         color="primary"
                     >
@@ -221,25 +270,32 @@ export default function MyTimeline({items}) {
                         py: '12px', px: 2
                     }}>
                         <Typography
+                            sx = {{
+                                fontStyle: 'oblique',
+                                fontWeight: '700',
+                            }}
                             variant="h5"
-                            fontWeight={"bold"}
                         >
                             {items[4].timelineTitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '600',
                                 marginTop: '0.5em',
                             }}
                             variant = "h6"
-                            fontWeight={"bold"}
                         >
                             {items[4].timelineSubtitle}
                         </Typography>
 
                         <Typography
                             sx = {{
+                                fontStyle: 'italic',
+                                fontWeight: '500',
                                 marginTop: '0.5em',
+                                textAlign: 'justify',
                             }}
                         >
                             {items[4].timelineText}

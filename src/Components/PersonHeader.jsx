@@ -1,4 +1,3 @@
-import './PersonHeader.css'
 import React from 'react';
 import {Box, Typography} from "@mui/material";
 import {t} from "i18next";
@@ -8,9 +7,11 @@ const PersonHeader = ({person}) => {
         <div>
             <Typography
                 mx ={{
-                    marginTop: '0.5em'
+                    marginTop: '0.5em',
+                    fontStyle: 'oblique',
+                    fontWeight: '500',
                 }}
-                variant = "h3"
+                variant = "h2"
                 fontSize = "3rem"
                 display = "flex"
                 justifyContent = "center"
@@ -48,51 +49,80 @@ const PersonHeader = ({person}) => {
                         {t("age")}{person.age}
                     </Typography>
                 </Box>
+
                 <Box
                     width = "40%"
                 >
                     <Typography
-                        className = "biography"
+                        sx = {{
+                            fontSize: '1.2rem',
+                            fontStyle: 'italic',
+                        }}
                     >
                         {t("fullName")}{person.name}
                     </Typography>
 
                     <Typography
-                        className = "biography"
+                        sx = {{
+                            fontSize: '1.2rem',
+                            marginTop: '0.5em',
+                            fontStyle: 'italic',
+                        }}
                     >
                         {t("birthdayDate")}{person.birthdayDate}
                     </Typography>
 
                     <Typography
-                        className = "biography"
+                        sx = {{
+                            fontSize: '1.2rem',
+                            marginTop: '0.5em',
+                            fontStyle: 'italic',
+                        }}
                     >
                         {t("deathDate")}{person.deathDate}
                     </Typography>
 
                     <Typography
-                        className = "biography"
+                        sx = {{
+                            fontSize: '1.2rem',
+                            marginTop: '0.5em',
+                            fontStyle: 'italic',
+                        }}
                     >
                         {t("birthdayPlace")}{person.birthdayPlace}
                     </Typography>
 
                     <Typography
-                        className = "biography"
+                        sx = {{
+                            fontSize: '1.2rem',
+                            marginTop: '0.5em',
+                            fontStyle: 'italic',
+                        }}
                     >
                         {t("nationality")}{person.nationality}
                     </Typography>
 
                     <Typography
-                        className = "biography"
+                        sx = {{
+                            fontSize: '1.2rem',
+                            marginTop: '0.5em',
+                            fontStyle: 'italic',
+                        }}
                     >
                         {t("activity")}{person.activity}
                     </Typography>
 
                     <Typography
-                         textAlign = 'justify'
-                        className = "biography"
+                         sx = {{
+                             fontSize: '1.2rem',
+                             marginTop: '2em',
+                             fontStyle: 'italic',
+                             textAlign: 'justify',
+                         }}
                     >
                         {person.description}
                     </Typography>
+
                 </Box>
             </Box>
         </div>

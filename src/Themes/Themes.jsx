@@ -4,8 +4,11 @@ export const themeOptions = {
         primary: {
             main: "#212121",
         },
-        secondary: {
+        TimelineSecondary: {
             main: "#009E60",
+        },
+        secondary: {
+            main: "#f57f17"
         },
         background: {
             default: "#e0e0e0",

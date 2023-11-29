@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
-import {Button, IconButton, Menu, Typography} from "@mui/material";
+import {IconButton, Menu, Typography} from "@mui/material";
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Link} from "react-router-dom";
@@ -145,7 +145,10 @@ export default function Header() {
                         variant="body1"
                         noWrap
                         component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                        sx={{
+                            flexGrow: 1,
+                            display: { xs: 'none', sm: 'block' }
+                    }}
                     >
                         <Link
                             to = "/"
@@ -168,8 +171,11 @@ export default function Header() {
                         </Link>
 
                         <MyLink
-                            color = 'secondary'
+                            sx={{
+                                textDecoration: 'none'
+                            }}
                             className = "NavLink"
+                             color = 'inherit'
                             onClick={swapLanguage}
                         >
                             Изменить язык

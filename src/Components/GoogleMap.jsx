@@ -11,8 +11,10 @@ const GoogleMap = ({link}) => {
             }}
             width= "100%"
             height="500px"
-            src = "https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=gomel+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            allow = "autoplay"
+            src = {link}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
         >
         </iframe>
     );

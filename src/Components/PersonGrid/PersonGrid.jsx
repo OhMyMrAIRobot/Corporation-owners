@@ -9,6 +9,7 @@ import {useNavigate} from "react-router-dom";
 const Item = ({person}) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
+    console.log(person.photo)
     return(
         <Card className = "cardPerson" sx = {{
             backgroundColor: 'inherit',
@@ -18,7 +19,7 @@ const Item = ({person}) => {
             >
             <CardActionArea
                 onClick={() => {
-                    navigate(`/Person`);
+                    navigate(`/${person.id}`);
                     window.scrollTo(0, 0);
                 }}
             >
@@ -52,14 +53,15 @@ export default function PersonGrid() {
     const { t } = useTranslation();
 
     const persons = t("persons", { returnObjects: true });
-
     return (
         <MainContainer>
-            <Box class = "BoxItems">
-                <Item person={persons[0]}/>
-                <Item person={persons[0]}/>
-                <Item person={persons[0]}/>
+            <Box className = "BoxItems">
+                {persons.map((item, key) =>(
+                    <Item person={persons[key]}/>
+                ))}
             </Box>
         </MainContainer>
     );
 }
+
+

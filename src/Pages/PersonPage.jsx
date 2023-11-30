@@ -31,7 +31,7 @@ const HeadText = ({text}) => {
 const PersonPage = () => {
     const { t } = useTranslation();
     const params = useParams();
-    const personId = 0;
+    const personId = params.id - 1;
 
     const persons = t("persons", { returnObjects: true });
 

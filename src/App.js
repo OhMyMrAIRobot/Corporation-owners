@@ -1,5 +1,5 @@
 import './App.css';
-import React from "react";
+import React, {useEffect} from "react";
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { Box } from '@mui/material';
 import { themeOptions } from './Themes/Themes'
@@ -16,31 +16,36 @@ import Footer from "./Components/Footer/Footer";
 const theme = createTheme(themeOptions);
 
 function App() {
+    useEffect(() => {
+        console.log('rand')
+    }, []);
    return(
        <I18nextProvider i18n={i18next}>
-       <ThemeProvider theme={theme}>
-           <div
-               style={{
-                   minHeight: '100vh',
-                   display: 'flex',
-                   flexDirection: 'column',
-                   backgroundColor: theme.palette.background.default
-               }}
-           >
-               <Box
-                   flex={0}
+           <ThemeProvider theme={theme}>
+               <div
+                   style={{
+                       minHeight: '100vh',
+                       display: 'flex',
+                       flexDirection: 'column',
+                       backgroundColor: theme.palette.background.default
+                   }}
                >
-                   <Header/>
-               </Box>
-               <Routes>
-                   <Route path="/" element={<MainPage />} />
-                   <Route path="/About" element={<AboutPage />} />
-                   <Route path="/Personlist" element={<PersonListPage />} />
-                   <Route path = "/Person" element={<PersonPage/>} />
-               </Routes>
-               <Footer/>
-           </div>
-       </ThemeProvider>
+                   <Box
+                       flex={0}
+                   >
+                       <Header/>
+                   </Box>
+
+                   <Routes>
+                       <Route path="/" element={<MainPage />} />
+                       <Route path="/About" element={<AboutPage />} />
+                       <Route path="/Personlist" element={<PersonListPage />} />
+                       <Route path = "/:id" element={<PersonPage/>} />
+                   </Routes>
+
+                   <Footer/>
+               </div>
+           </ThemeProvider>
        </I18nextProvider>
    )
 }

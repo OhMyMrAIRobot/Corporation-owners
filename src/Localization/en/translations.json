@@ -7,7 +7,7 @@
   "birthdayPlace": "Место рождения: ",
   "nationality": "Гражданство: ",
   "activity": "Род деятельности: ",
-  "photo": "Фотографии",
+  "photos": "Фотографии",
   "timeline": "Временная шкала",
   "aboutPar1": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
   "aboutPar2":"Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti",
@@ -16,7 +16,7 @@
   "persons": [
     {
       "id": 1,
-      "name": "Name Surname en",
+      "name": "Name Surname en1",
       "age": 99,
       "birthdayDate": "23 октября 2018",
       "deathDate": "23 октября 2018",
@@ -24,13 +24,113 @@
       "nationality": "США",
       "activity": "не придумал",
       "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
-      "photo": "../Images/img.png",
-      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_1.png"],
+      "photo": "../Images/img_3.png",
+      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_3.png"],
       "instagram": "",
       "twitter": "",
       "wiki": "",
       "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
-      "googlemap": "https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=gomel+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.4837752903!2d30.868509307353584!3d52.425089995707125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2z0JPQvtC80LXQu9GMLCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1701354881709!5m2!1sru!2sby",
+      "timelineItems": [{
+        "timelineYears": "2001—2006",
+        "timelineTitle": "Lorem ipsum dolor",
+        "timelineSubtitle":"Sit voluptas Quis",
+        "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+      },
+        {
+          "timelineYears": "2002—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2003—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2004—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2005—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Name Surname en2",
+      "age": 99,
+      "birthdayDate": "23 октября 2018",
+      "deathDate": "23 октября 2018",
+      "birthdayPlace": "Сан-Франциско, Калифорния",
+      "nationality": "США",
+      "activity": "не придумал",
+      "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
+      "photo": "../Images/img_3.png",
+      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_3.png"],
+      "instagram": "",
+      "twitter": "",
+      "wiki": "",
+      "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
+      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.4837752903!2d30.868509307353584!3d52.425089995707125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2z0JPQvtC80LXQu9GMLCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1701354881709!5m2!1sru!2sby",
+      "timelineItems": [{
+        "timelineYears": "2001—2006",
+        "timelineTitle": "Lorem ipsum dolor",
+        "timelineSubtitle":"Sit voluptas Quis",
+        "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+      },
+        {
+          "timelineYears": "2002—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2003—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2004—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        },
+        {
+          "timelineYears": "2005—2006",
+          "timelineTitle": "Lorem ipsum dolor",
+          "timelineSubtitle":"Sit voluptas Quis",
+          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Name Surname en3",
+      "age": 99,
+      "birthdayDate": "23 октября 2018",
+      "deathDate": "23 октября 2018",
+      "birthdayPlace": "Сан-Франциско, Калифорния",
+      "nationality": "США",
+      "activity": "не придумал",
+      "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
+      "photo": "../Images/img_3.png",
+      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_3.png"],
+      "instagram": "",
+      "twitter": "",
+      "wiki": "",
+      "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
+      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.4837752903!2d30.868509307353584!3d52.425089995707125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2z0JPQvtC80LXQu9GMLCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1701354881709!5m2!1sru!2sby",
       "timelineItems": [{
         "timelineYears": "2001—2006",
         "timelineTitle": "Lorem ipsum dolor",
@@ -63,5 +163,6 @@
         }
       ]
     }
+
   ]
 }

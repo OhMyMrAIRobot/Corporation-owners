@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import MainContainer from "../Components/MainContainer";
 import {About} from "../Components/About";
 import {Authors} from "../Components/Authors";

@@ -1,21 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
 import {useNavigate, useParams} from "react-router-dom";
 
-
-
 const PersonOfTheDay = () => {
     const { t } = useTranslation();
     const navigate = useNavigate()
-    const personId = 0;
+    const personId = Math.floor(Math.random() * 2);
     const persons = t("persons", { returnObjects: true });
 
     const MoreButton = (
         <Button
             variant="contained"
             onClick={() => {
-                navigate(`/Person`)
+                navigate(`/${personId}`)
                 window.scrollTo(0, 0);
             }}
             sx={{

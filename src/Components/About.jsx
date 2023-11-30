@@ -1,8 +1,9 @@
 import { Typography, useTheme} from '@mui/material'
 import Container from '@mui/material/Container'
+import {useTranslation} from "react-i18next";
 
 export function About() {
-
+    const { t } = useTranslation();
     const theme = useTheme()
     theme.typography.h2 = {
         fontSize: '2rem',
@@ -24,7 +25,7 @@ export function About() {
                     textAlign: 'center',
                 }}
             >
-                Создатели международных корпораций
+                {t("appName")}
             </Typography>
 
             <Typography
@@ -38,7 +39,7 @@ export function About() {
                     textAlign: 'center'
                 }}
             >
-                какой-то крутой текст
+                {t("aboutPar1")}
             </Typography>
 
             <Typography
@@ -53,7 +54,7 @@ export function About() {
                     textAlign: 'center'
                 }}
             >
-                и тут тоже крутой текст
+                {t("aboutPar2")}
             </Typography>
         </Container>
     )

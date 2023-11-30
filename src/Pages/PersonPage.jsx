@@ -6,6 +6,27 @@ import PersonHeader from "../Components/PersonHeader";
 import MyTimeline from "../Components/MyTimeline"
 import ImageCarousel from "../Components/ImageCarousel";
 import {Typography} from "@mui/material";
+import YouTube from "../Components/YouTube";
+import GoogleMap from "../Components/GoogleMap";
+
+const HeadText = ({text}) => {
+    return (
+        <Typography
+            variant="h2"
+            align="center"
+            color="text.primary"
+            gutterBottom
+            sx={{
+                fontStyle: 'oblique',
+                fontWeight: 'medium',
+                textAlign: 'center',
+                marginTop: "1.5em"
+            }}
+        >
+            {text}
+        </Typography>
+    )
+}
 
 const PersonPage = () => {
     const { t } = useTranslation();
@@ -21,42 +42,36 @@ const PersonPage = () => {
                     person={persons[personId]}
                 />
 
-                <Typography
-                    variant="h2"
-                    align="center"
-                    color="text.primary"
-                    gutterBottom
-                    sx={{
-                        fontStyle: 'oblique',
-                        fontWeight: 'medium',
-                        textAlign: 'center',
-                        marginTop: "1.5em"
-                    }}
-                >
-                    {t("timeline")}
-                </Typography>
+                <HeadText
+                    text = {t("timeline")}
+                />
 
                 <MyTimeline
                     items={persons[personId].timelineItems}
                 />
 
-                <Typography
-                    variant="h2"
-                    align="center"
-                    color="text.primary"
-                    gutterBottom
-                    sx={{
-                        fontStyle: 'oblique',
-                        fontWeight: 'medium',
-                        textAlign: 'center',
-                        marginTop: "1.5em"
-                    }}
-                >
-                    {t("photo")}
-                </Typography>
+                <HeadText
+                    text = {t("photo")}
+                />
 
                 <ImageCarousel
                     items = {persons[personId].images}
+                />
+
+                <HeadText
+                    text = {t("YoutubeHeader")}
+                />
+
+                <YouTube
+                    link = {persons[personId].youtube}
+                />
+
+                <HeadText
+                    text = {t("MapHeader")}
+                />
+
+                <GoogleMap
+                    link = {persons[personId].googlemap}
                 />
             </MainContainer>
         </div>

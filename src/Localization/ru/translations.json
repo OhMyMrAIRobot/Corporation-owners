@@ -1,4 +1,5 @@
 {
+  "appName": "Создатели международных корпораций",
   "fullName": "Полное имя: ",
   "age" : "Возраст: ",
   "birthdayDate": "Дата рождения: ",
@@ -8,6 +9,10 @@
   "activity": "Род деятельности: ",
   "photo": "Фотографии",
   "timeline": "Временная шкала",
+  "aboutPar1": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
+  "aboutPar2":"Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti",
+  "YoutubeHeader": "YouTube",
+  "MapHeader": "Map",
   "persons": [
     {
       "id": 1,
@@ -24,8 +29,8 @@
       "instagram": "",
       "twitter": "",
       "wiki": "",
-      "youtube": "",
-      "map": "",
+      "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
+      "googlemap": "https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=gomel+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "timelineItems": [{
         "timelineYears": "2001—2006",
         "timelineTitle": "Lorem ipsum dolor",

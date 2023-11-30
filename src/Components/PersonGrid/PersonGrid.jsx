@@ -9,7 +9,6 @@ import {useNavigate} from "react-router-dom";
 const Item = ({person}) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
-    console.log(person.photo)
     return(
         <Card className = "cardPerson" sx = {{
             backgroundColor: 'inherit',

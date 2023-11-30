@@ -1,13 +1,13 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
-import {useNavigate, useParams} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const PersonOfTheDay = () => {
     const { t } = useTranslation();
     const navigate = useNavigate()
-    const personId = Math.floor(Math.random() * 2);
     const persons = t("persons", { returnObjects: true });
+    const personId = localStorage.getItem('randomId');
 
     const MoreButton = (
         <Button
@@ -38,7 +38,7 @@ const PersonOfTheDay = () => {
                 textAlign: "center",
             }}
         >
-            {persons[personId].name}
+            {persons[personId-1].name}
         </Typography>
     )
 
@@ -54,7 +54,7 @@ const PersonOfTheDay = () => {
                 textAlign: 'center'
             }}
         >
-            {persons[personId].description}
+            {persons[personId-1].description}
         </Typography>
     )
 

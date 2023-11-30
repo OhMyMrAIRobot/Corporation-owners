@@ -12,7 +12,7 @@ const YouTube = ({link}) => {
             width= "100%"
             height="500px"
             src = {link}
-            allowFullScreen="true"
+            allowFullScreen={true}
         >
         </iframe>
     );

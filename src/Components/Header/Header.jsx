@@ -3,15 +3,15 @@ import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import InputBase from '@mui/material/InputBase';
-import SearchIcon from '@mui/icons-material/Search';
-import {IconButton, Menu, Typography} from "@mui/material";
+import {Autocomplete, IconButton, Menu, TextField, Typography} from "@mui/material";
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import "./Header.css"
 import i18n from "../../i18n";
 import {Link as MyLink} from '@mui/material'
+import {useTranslation} from "react-i18next";
+import {useState} from "react";
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -28,35 +28,19 @@ const Search = styled('div')(({ theme }) => ({
     },
 }));
 
-const SearchIconWrapper = styled('div')(({ theme }) => ({
-    padding: theme.spacing(0, 2),
-    height: '100%',
-    position: 'absolute',
-    pointerEvents: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-    color: 'inherit',
-    '& .MuiInputBase-input': {
-        padding: theme.spacing(1, 1, 1, 0),
-        // vertical padding + font size from searchIcon
-        paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-        transition: theme.transitions.create('width'),
-        width: '100%',
-        [theme.breakpoints.up('sm')]: {
-            width: '12ch',
-            '&:focus': {
-                width: '20ch',
-            },
-        },
-    },
-}));
-
 export default function Header() {
 
+    const { t } = useTranslation();
+    const persons = t("persons", { returnObjects: true });
+    const navigate = useNavigate();
+
+    let index = 1;
+    const personList = [];
+    persons.forEach((person) => {
+        personList.push({ label: person.name, id: index })
+        index++;
+    })
+    
     const swapLanguage = () => {
         if (i18n.language === 'en') {
             i18n.changeLanguage('ru')
@@ -86,6 +70,8 @@ export default function Header() {
         ['О портале','/About'],
     ]
 
+    const [inputValue, setInputValue] = useState()
+    
     return (
         <Box sx={{ flexGrow: 1}}>
             <AppBar position="static">
@@ -183,12 +169,37 @@ export default function Header() {
 
                     </Typography>
                     <Search>
-                        <SearchIconWrapper>
-                            <SearchIcon />
-                        </SearchIconWrapper>
-                        <StyledInputBase
-                            placeholder="Поиск..."
-                            inputProps={{ 'aria-label': 'search' }}
+                        <Autocomplete
+                            sx={{
+                                width: 'auto',
+                                minWidth: 270,
+                                height: '50px',
+                                backgroundColor: 'background.paper'
+                            }}
+                            autoComplete={true}
+                            clearOnEscape={true}
+                            clearOnBlur={true}
+                            noOptionsText="Нет результатов"
+                            renderInput={(params) =>
+                                <TextField
+                                {...params}
+                                label = {'Search...'}
+                            />}
+                            options={personList}
+                            onChange={(event, value, reason, details) => {
+                                personList.forEach((person) => {
+                                    if (person === value){
+                                        setInputValue(person.id)
+                                    }
+                                })
+                            }
+                            }
+                            onKeyPressCapture={(event) => {
+                                if (event.code === 'Enter'){
+                                    navigate(`/${inputValue}`);
+                                    window.scrollTo(0, 0);
+                                }
+                            }}
                         />
                     </Search>
                 </Toolbar>

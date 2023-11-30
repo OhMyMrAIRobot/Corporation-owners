@@ -12,13 +12,15 @@ import PersonListPage from "./Pages/PersonListPage";
 import {I18nextProvider} from "react-i18next";
 import i18next from './i18n'
 import Footer from "./Components/Footer/Footer";
-
 const theme = createTheme(themeOptions);
 
 function App() {
     useEffect(() => {
-        console.log('rand')
+        const RandomId = Math.floor(Math.random() * 3) + 1;
+        localStorage.setItem('randomId', RandomId);
+        console.log('rand');
     }, []);
+
    return(
        <I18nextProvider i18n={i18next}>
            <ThemeProvider theme={theme}>
@@ -47,6 +49,7 @@ function App() {
                </div>
            </ThemeProvider>
        </I18nextProvider>
+
    )
 }
 

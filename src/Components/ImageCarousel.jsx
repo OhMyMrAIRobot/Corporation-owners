@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Carousel from "react-material-ui-carousel";
-import {Box, Paper} from "@mui/material";
+import {Box} from "@mui/material";
 
 const Item = (props) => {
     return (

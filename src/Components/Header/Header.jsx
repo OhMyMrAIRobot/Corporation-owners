@@ -70,8 +70,7 @@ export default function Header() {
         ['О портале','/About'],
     ]
 
-    const [inputValue, setInputValue] = useState()
-    
+    const [inputValue, setInputValue] = useState("")
     return (
         <Box sx={{ flexGrow: 1}}>
             <AppBar position="static">
@@ -195,7 +194,7 @@ export default function Header() {
                             }
                             }
                             onKeyPressCapture={(event) => {
-                                if (event.code === 'Enter'){
+                                if (event.code === 'Enter' && inputValue !== ""){
                                     navigate(`/${inputValue}`);
                                     window.scrollTo(0, 0);
                                 }

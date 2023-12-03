@@ -38,13 +38,12 @@ function App() {
                        <Header/>
                    </Box>
 
-                   <Routes>
-                       <Route path="/" element={<MainPage />} />
-                       <Route path="/About" element={<AboutPage />} />
-                       <Route path="/Personlist" element={<PersonListPage />} />
-                       <Route path = "/:id" element={<PersonPage/>} />
-                   </Routes>
-
+                       <Routes>
+                           <Route path="/" element={<MainPage />}/>
+                           <Route path="/About" element={<AboutPage />} />
+                           <Route path="/Personlist" element={<PersonListPage />} />
+                           <Route path = "/:id" element={<PersonPage/>}/>
+                       </Routes>
                    <Footer/>
                </div>
            </ThemeProvider>

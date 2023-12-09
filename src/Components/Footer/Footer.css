@@ -1,0 +1,12 @@
+.AboutLink{
+    text-decoration: none;
+    color: #fff;
+    white-space: pre;
+}
+
+.FooterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

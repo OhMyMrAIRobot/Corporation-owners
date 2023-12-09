@@ -7,6 +7,9 @@ export const themeOptions = {
         TimelineSecondary: {
             main: "#009E60",
         },
+        TimelinePrimary: {
+            main: "#f57f17"
+        },
         secondary: {
             main: "#f57f17"
         },

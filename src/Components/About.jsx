@@ -43,8 +43,8 @@ export function About() {
             </Typography>
 
             <Typography
+
                 variant="h5"
-                align="center"
                 color="text.secondary"
                 paragraph
                 sx={{

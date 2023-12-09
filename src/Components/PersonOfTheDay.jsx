@@ -3,17 +3,17 @@ import {Box, Button, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
 
-const PersonOfTheDay = () => {
+const PersonOfTheDay = ({personId}) => {
     const { t } = useTranslation();
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    console.log(personId);
     const persons = t("persons", { returnObjects: true });
-    const personId = localStorage.getItem('randomId');
 
     const MoreButton = (
         <Button
             variant="contained"
             onClick={() => {
-                navigate(`/${personId}`)
+                navigate(`/${personId + 1}`)
                 window.scrollTo(0, 0);
             }}
             sx={{
@@ -23,7 +23,7 @@ const PersonOfTheDay = () => {
                 marginRight: 'auto',
             }}
         >
-            Подробнее
+            {t('btnMore')}
         </Button>
     )
 
@@ -38,7 +38,7 @@ const PersonOfTheDay = () => {
                 textAlign: "center",
             }}
         >
-            {persons[personId-1].name}
+            {persons[personId].name}
         </Typography>
     )
 
@@ -54,10 +54,9 @@ const PersonOfTheDay = () => {
                 textAlign: 'center'
             }}
         >
-            {persons[personId-1].description}
+            {persons[personId].description}
         </Typography>
     )
-
 
     return (
         <Box
@@ -77,7 +76,7 @@ const PersonOfTheDay = () => {
                     textAlign: "center",
                 }}
             >
-                Деятель дня
+                {t('personDay')}
             </Typography>
             {TitleText}
             {DescriptionText}

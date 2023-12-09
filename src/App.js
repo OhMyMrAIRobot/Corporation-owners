@@ -17,6 +17,7 @@ const theme = createTheme(themeOptions);
 function App() {
     useEffect(() => {
         const RandomId = Math.floor(Math.random() * 3) + 1;
+        localStorage.removeItem('randomId');
         localStorage.setItem('randomId', RandomId);
         console.log('rand');
     }, []);

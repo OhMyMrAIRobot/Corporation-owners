@@ -3,13 +3,14 @@ import Box from "@mui/material/Box";
 import {Author} from "./Author";
 import {Typography} from "@mui/material";
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 export function Authors() {
-
+    const { t } = useTranslation();
     const authors = [
-        { path: "../Images/img111.png", name: 'author1', link: 'https://github.com/' },
-        { path: "../Images/img111.png", name: 'author2', link: 'https://github.com/' },
-        { path: "../Images/img111.png", name: 'author3', link: 'https://github.com/' },
+        { path: "../Images/img111.png", name: t('author1'), link: 'https://github.com/' },
+        { path: "../Images/img111.png", name: t('author2'), link: 'https://github.com/' },
+        { path: "../Images/img111.png", name: t('author3'), link: 'https://github.com/' },
     ]
 
     return (
@@ -26,7 +27,7 @@ export function Authors() {
                     textAlign: "center",
                 }}
             >
-                Авторы
+                {t('authors')}
             </Typography>
 
             <Box style={{

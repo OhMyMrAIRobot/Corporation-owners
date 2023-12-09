@@ -65,9 +65,9 @@ export default function Header() {
     };
 
     const pages = [
-        ['Создатели международных корпораций', '/'],
-        ['Деятели', '/Personlist'],
-        ['О портале','/About'],
+        [t('appName'), '/'],
+        [t('appFigures'), '/Personlist'],
+        [t('appAbout'),'/About'],
     ]
 
     const [inputValue, setInputValue] = useState("")
@@ -121,7 +121,7 @@ export default function Header() {
                             ))}
                             {
                                 <MenuItem key={4} onClick={swapLanguageMenuWrapper}>
-                                        Изменить язык
+                                    {t('chgLng')}
                                 </MenuItem>
                             }
                         </Menu>
@@ -139,20 +139,20 @@ export default function Header() {
                             to = "/"
                             className = "NavTitle"
                         >
-                            Создатели международных корпораций
+                            {t('appName')}
                         </Link>
 
                         <Link
                             to = "/Personlist"
                             className = "NavLink"
                         >
-                            Деятели
+                            {t('appFigures')}
                         </Link>
                         <Link
                             to = "/About"
                             className = "NavLink"
                         >
-                            О портале
+                            {t('appAbout')}
                         </Link>
 
                         <MyLink
@@ -163,7 +163,7 @@ export default function Header() {
                              color = 'inherit'
                             onClick={swapLanguage}
                         >
-                            Изменить язык
+                            {t('chgLng')}
                         </MyLink>
 
                     </Typography>
@@ -182,7 +182,7 @@ export default function Header() {
                             renderInput={(params) =>
                                 <TextField
                                 {...params}
-                                label = {'Search...'}
+                                label = {t('search')}
                             />}
                             options={personList}
                             onChange={(event, value, reason, details) => {

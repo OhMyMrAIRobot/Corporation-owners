@@ -1,7 +1,20 @@
 {
   "appName": "Создатели международных корпораций",
-  "fullName": "Полное имя: ",
+  "appAbout": "О портале",
+  "appFigures": "Деятели",
+  "chgLng": "Изменить язык",
+  "search": "Поиск...",
+  "aboutPar1": "Портал \"Создатели Международных Корпораций\" представляет собой уникальный ресурс, посвященный изучению и анализу успешных предпринимателей, которые создали и развили крупные международные корпорации. Портал написан и поддерживается студентами БГУИР, ФКСиС, ПОИТ. Данные предоставлены бесплатным сайтом wikipedia.org",
+  "aboutPar2":"Мы приглашаем вас погрузиться в мир предпринимательства и получить вдохновение от самых успешных создателей международных корпораций",
+  "personDay": "Деятель дня",
+  "btnMore": "Подробнее",
+  "authors": "Авторы",
+  "author1": "Белевич Дмитрий",
+  "author2": "Хлыщенков Даниил",
+  "author3": "Копыток Михаил",
+
   "age" : "Возраст: ",
+  "fullName": "Полное имя: ",
   "birthdayDate": "Дата рождения: ",
   "deathDate": "Дата смерти: ",
   "birthdayPlace": "Место рождения: ",
@@ -9,10 +22,9 @@
   "activity": "Род деятельности: ",
   "photos": "Фотографии",
   "timeline": "Временная шкала",
-  "aboutPar1": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
-  "aboutPar2":"Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti",
   "YoutubeHeader": "YouTube",
-  "MapHeader": "Map",
+  "MapHeader": "Карта",
+
   "persons": [
     {
       "id": 1,

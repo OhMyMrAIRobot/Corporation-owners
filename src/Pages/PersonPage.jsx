@@ -51,7 +51,7 @@ const PersonPage = () => {
                 />
 
                 <HeadText
-                    text = {t("photo")}
+                    text = {t("photos")}
                 />
 
                 <ImageCarousel

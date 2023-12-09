@@ -36,9 +36,6 @@ const Item = ({person}) => {
                     <Typography variant="body1" component="div">
                         {t("age")}{person.age}
                     </Typography>
-                    {/*<Typography variant="body1" color="text.secondary">*/}
-                    {/*    {person.description}*/}
-                    {/*</Typography>*/}
                 </CardContent>
             </CardActionArea>
         </Card>

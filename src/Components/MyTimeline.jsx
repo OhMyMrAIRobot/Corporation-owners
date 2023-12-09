@@ -34,7 +34,7 @@ export default function MyTimeline({items}) {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
-                        <TimelineDot color = "secondary">
+                        <TimelineDot color = "TimelineSecondary">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
@@ -91,7 +91,7 @@ export default function MyTimeline({items}) {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
-                        <TimelineDot color = "secondary">
+                        <TimelineDot color = "TimelinePrimary">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
@@ -148,7 +148,7 @@ export default function MyTimeline({items}) {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
-                        <TimelineDot color = "secondary">
+                        <TimelineDot color = "TimelineSecondary">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
@@ -205,7 +205,7 @@ export default function MyTimeline({items}) {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
-                        <TimelineDot color = "TimelineSecondary">
+                        <TimelineDot color = "TimelinePrimary">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>

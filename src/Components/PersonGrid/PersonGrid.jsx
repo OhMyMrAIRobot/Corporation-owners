@@ -34,7 +34,7 @@ const Item = ({person}) => {
                         {person.name}
                     </Typography>
                     <Typography variant="body1" component="div">
-                        {t("age")}{person.age}
+                        {person.activity}
                     </Typography>
                 </CardContent>
             </CardActionArea>

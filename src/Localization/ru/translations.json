@@ -30,153 +30,146 @@
   "persons": [
     {
       "id": 1,
-      "name": "Name Surname ru1",
-      "age": 99,
-      "birthdayDate": "23 октября 2018",
-      "deathDate": "23 октября 2018",
+      "name": "Стив Джобс",
+      "age": "",
+      "birthdayDate": "23 февраля 1955",
+      "deathDate": "5 октября 2011",
       "birthdayPlace": "Сан-Франциско, Калифорния",
       "nationality": "США",
-      "activity": "не придумал",
-      "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
-      "photo": "../Images/img_3.png",
-      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_3.png"],
-      "instagram": "",
-      "twitter": "",
-      "wiki": "",
-      "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
-      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.4837752903!2d30.868509307353584!3d52.425089995707125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2z0JPQvtC80LXQu9GMLCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1701354881709!5m2!1sru!2sby",
+      "activity": "Предприниматель, изобретатель, промышленный дизайнер, сооснователь и CEO компании Apple, NeXT и Pixar",
+      "description": "Сти́вен Пол (Стив) Джобс (англ. Steven Paul (Steve) Jobs, имя при рождении — Абдул Латиф Джандали; 24 февраля 1955, Сан-Франциско, Калифорния, США — 5 октября 2011, Пало-Алто, Санта-Клара, Калифорния, США) — американский предприниматель, изобретатель и промышленный дизайнер, получивший широкое признание в качестве пионера эры информационных технологий. Один из основателей, председатель совета директоров и CEO корпорации Apple. Один из основателей и CEO киностудии Pixar.",
+      "photo": "../Images/Steve1.png",
+      "images": ["../Images/Steve2.png", "../Images/Steve3.png", "../Images/Steve4.png"],
+      "youtube": "https://www.youtube.com/embed/GuJs89N3rcw?si=7VY38LkyvQ-i2dlJ",
+      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.99641120159!2d-122.52000086435882!3d37.757807037289176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sby!4v1702219559536!5m2!1sru!2sby",
       "timelineItems": [{
-        "timelineYears": "2001—2006",
-        "timelineTitle": "Lorem ipsum dolor",
-        "timelineSubtitle":"Sit voluptas Quis",
-        "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        "timelineYears": "1975",
+        "timelineTitle": "Клуб самодельных компьютеров",
+        "timelineSubtitle":"Клуб энтузиастов, инженеров и фанатов компьютерной техники",
+        "timelineText": "5 марта 1975 года состоялось первое собрание группы энтузиастов, называвших себя «Клубом самодельных компьютеров».Все они также были инженерами и «фанатами» компьютерной техники, объединяло их желание изменить бытующее представление о компьютерах, как об очень дорогих и громоздких устройствах, требующих в использовании специальных навыков. Внедрение новых технологий в жизнь простых людей предполагалось через пропаганду самостоятельного проектирования и кустарного изготовления компьютеров. На встрече присутствовал Стив Возняк. Уже после первого собрания он с большим рвением взялся за проектирование машины, позднее получившей известность как Apple I. Уже к концу июня он получил первый уникальный для того времени результат: вывод на экран символов, набираемых на клавиатуре. Воз тут же продемонстрировал своё изобретение Стиву Джобсу, на которого оно произвело огромное впечатление. После этого Джобс тоже стал посещать «Клуб самодельных компьютеров», во всяком случае, в 1975 году он был на нескольких встречах: Воз демонстрировал свой компьютер другим членам клуба по окончании собраний, а Джобс помогал ему дотащить телевизор, выполнявший функции дисплея, а также с настройкой. Джобс довольно скоро завёл разговор о коммерческом потенциале изобретения Возняка. Прежде всего он убедил Воза перестать раздавать чертежи компьютера всем желающим, хотя это не отвечало принципам «Домашнего компьютерного клуба», созданного для свободного обмена идеями и бескорыстной взаимопомощи. Стив предложил Возу продавать в клубе готовые печатные платы, то есть взять самую сложную часть работы на себя, а покупателю оставалось бы по готовым чертежам припаять к плате чипы. По расчётам Джобса, производство одной платы обходилось бы в 20 долларов, а продавать их он собирался вдвое дороже. Возняк поначалу отнёсся к этой идее скептически: бизнес требовал не менее 1000 долларов стартовых вложений, которые могли окупиться после продажи 50 единиц товара. Хотя в клубе было уже около 500 членов, многие из них были сторонниками модных готовых решений вроде Altair 8800, и Воз не видел достаточного числа клиентов. Но Джобс слишком хорошо знал своего друга. Он не стал убеждать Возняка, что компания непременно принесёт доход, а расписал их предприятие как увлекательное приключение. И это сработало."
       },
         {
-          "timelineYears": "2002—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "1 апреля 1976",
+          "timelineTitle": "Apple computer",
+          "timelineSubtitle":"Создание компании с интересным названием",
+          "timelineText": "Чтобы собрать нужную сумму, Джобсу пришлось продать свой «хипповый» микроавтобус Volkswagen T1 и пересесть на велосипед, а Возняк сбыл с рук одно из главных своих сокровищ — программируемый калькулятор HP-65. Из вырученных средств Джобс заплатил знакомому сотруднику Atari за создание схемы печатной платы, которую потом можно было бы отдать в серийное производство. В январе 1976 года первая партия плат поступила в распоряжение компаньонов. Джобсу нужен был третий голос на случай разногласий с Возняком, и Стив взял в долю ещё одного инженера из Atari, своего друга Рона Уэйна, имевшего неудачный опыт ведения собственного дела по производству игровых автоматов для казино, а потому неплохо разбиравшегося в законодательстве и составлении документов. Джобс также надеялся с помощью Уэйна убедить Возняка бросить проектирование калькуляторов для Hewlett-Packard и полностью сосредоточиться на их бизнесе. Оставалось зарегистрировать фирму и можно было приступать к реализации товара. Но сначала нужно было определиться с названием будущей компании. Джобс как раз вернулся из Орегона, с «Единой фермы» Фридланда. Эта ферма была настоящей хипповской коммуной, — Стив там подрезал яблони и даже сел на яблочную диету, став фрутарианцем и решив, что теперь он очистился, и ему достаточно мыться не чаще раза в неделю. В Лос-Альтос он возвращался абсолютно счастливым. Воз встретил его в аэропорту и отвёз на машине в город. По дороге они подбирали название для будущей компании, так как на следующее утро уже нужно было подавать документы на её регистрацию. Джобс предложил «Apple Computer»: название звучало забавно, энергично и не страшно. Слово «apple» (яблоко) смягчало серьёзное «компьютер». К тому же в телефонном справочнике мы бы оказались перед Atari - Стив Джобс. Джобс заявил, что если к утру не будет предложено ничего лучшего, название Apple останется. Так и случилось. Поэтому компьютер, разработанный Возняком, получил название Apple I.Компания была зарегистрирована 1 апреля 1976 года. Трёхстороннее соглашение о партнёрстве составил Уэйн, он же написал первое руководство для Apple I и создал первый логотип Apple."
         },
         {
-          "timelineYears": "2003—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "1985",
+          "timelineTitle": "Кризис и увольнение",
+          "timelineSubtitle":"",
+          "timelineText": "Джобс пошёл на очень сомнительный шаг, отдав распоряжение на нераспроданные компьютеры «линейки» Lisa установить эмуляцию Macintosh и выбросить результат на рынок под брендом Macintosh XL. Продажи утроились, но по сути это был обман, против которого взбунтовались многие ведущие специалисты Apple. Вторым неудачным действием Джобса стал запуск рекламной кампании комплекта Macintosh Office. Комплект должен был состоять из файлового сервера, сетевого оборудования для терминалов Macintosh на протоколах AppleTalk и лазерного принтера LaserWriter. Джобс попытался взять тот же напористый и агрессивный тон, который принёс успех год назад, но «перегнул палку». Спад продаж и сомнительные действия руководства вызвали уход ряда ведущих специалистов, с которыми Джобс расставался слишком легко и самоуверенно. Кризис также вызвал ухудшение рабочих отношений Джобса и Скалли, что привело к борьбе за власть между ними. Джобс к этому времени уже считал Скалли неподходящим человеком для руководства компанией и вообще «плохим для Apple». Однако руководство его не поддержал, ,и было принято решение постепенно отстранить Джобса от управления компанией, тем более что у него созрела идея создания исследовательского центра AppleLabs, где он мог бы стать эффективным руководителем. Он несколько раз просил об отсрочке, но в конце концов не удержался — задумал в отсутствие Скалли устроить переворот в совете директоров и захватить власть. Даже самые верные сторонники Джобса сочли этот план безумием и пытались его отговорить. Скалли обо всём узнал, отменил поездку и 24 мая 1985 года на заседании совета директоров разоблачил планы Джобса. Совет встал на сторону Скалли и уволил Джобса с должности руководителя отдела Macintosh. Стив считал, что его все предали и бросили. Ему выделили маленький домик, в стороне от основных зданий Apple, Джобс называл его «Сибирью». Через некоторое время он просто перестал ходить на работу и убедился, что его отсуствия никто не замечает. Так Джобс продержался пять месяцев на формальной должности председателя совета директоров, без реальных полномочий, после чего ушёл из Apple и в том же году основал NeXT Inc."
         },
         {
-          "timelineYears": "2004—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "1985-1996",
+          "timelineTitle": "NeXT Computer",
+          "timelineSubtitle":"Создание компьютеров NeXT",
+          "timelineText": "В 1985 году Джобс познакомился с биохимиком Полом Бергом, лауреатом Нобелевской премии. Берг поделился своими представлениями о компьютере для научных исследований: он должен быть персональным, мощным и недорогим. Джобс запустил проект Big Mac, направленный на создание такого компьютера. Однако после ухода Джобса из Apple осенью 1985 года его преемник Жан-Луи Гассе закрыл проект. Теперь у Джобса появился шанс реализовать задуманное в собственной компании. Логотип компании был разработан именитым дизайнером Полом Рэндом за 100 тысяч долларов. Джобс переманил к себе нескольких единомышленников из команды Macintosh — ведущего программиста Бада Триббла, ведущих инженеров Джорджа Кроу и Рича Пейджа, главного бухгалтера Сьюзен Барнс, художника-дизайнера Сьюзен Каре, маркетолога Дэниела Левина — и с 7 миллионами долларов зарегистрировал компанию NeXT Inc. Своей новой задачей Джобс видел создание компьютера для нужд науки и образования. Проблема заключалась в том, что Apple имела прочные позиции только на этом рынке. Через год от 7 миллионов почти ничего не осталось, а в активе новой компании был только логотип и шикарные офисы. Спас ситуацию бизнесмен и филантроп Росс Перо, в 1987 году он купил 16 % акций компании за 20 миллионов долларов, что стало первой крупной инвестицией в NeXT. Стив управлял NeXT с навязчивой идеей эстетического совершенства. Вместе с Эсслингером они разработали дизайн компьютера NeXT, идея которого принадлежала Джобсу. Компьютеры NeXT поступили в продажу только в середине 1989 года по цене в 6500 долларов и первое время продавались ограниченными партиями для вузов с предустановленной бета-версией операционной системы NeXTSTEP. Джобс рекламировал NeXTcube как первый «межличностный» компьютер, который заменит персональный компьютер. Благодаря инновационной мультимедийной системе электронной почты NeXTMail, NeXTcube позволял делиться голосом, изображениями, графикой и видео по электронной почте. «Межличностные компьютеры революционизируют человеческие коммуникации и групповую работу», — говорил Джобс журналистам. Как и Apple Lisa, станция NeXT была технологически передовой, но в целом была отвергнута индустрией как слишком дорогая. Однако среди тех, кто мог себе её позволить, NeXT приобрела поклонников из-за своих технических преимуществ, главным из которых была объектно-ориентированная система разработки программного обеспечения. Тим Бернерс-Ли изобрёл Всемирную паутину и написал первый в мире гипертекстовый веб-браузер в ЦЕРНе, используя компьютер NeXT, а Джон Кармак написал на нём игры Wolfenstein 3D и Doom."
         },
         {
-          "timelineYears": "2005—2006",
-          "timelineTitle": "Lorem ipsum dolor",
+          "timelineYears": "1996",
+          "timelineTitle": "Возвращение в Apple",
           "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineText": "Компания NeXT, съёжившаяся до NeXT Software Inc., со штатом в 240 сотрудников, поставлявшая передовое программное обеспечение таким крупным заказчикам как Dell, The Walt Disney Company, WorldCom, Би-би-си, находилась в тупике. Джобс понимал, что только своими силами не выбраться, и снова стал смотреть в сторону Apple, дела которой тоже шли не блестяще. После ухода Джобса Apple несколько лет продержалась на старых идеях и разработках, а затем её доля на рынке упала с 16 % до 4 %. Первый разговор между Стивом Джобсом и директором Apple Гилом Амелио о возможном объединении или поглощении NeXT состоялся в 1994 году: в распоряжении NeXT была многозадачная объектно-ориентированная операционная система NeXTSTEP, и к ней интерфейс программирования приложений OpenStep, а в распоряжении Apple — аппаратная база и производственные мощности. Через два года Амелио осознал глубину кризиса Apple и вернулся к предложению Джобса. Конкуренцию NeXT за право слияния с Apple составила Be Inc., основанная в 1990 году Жаном-Луи Гассе, когда-то сменившим Джобса на посту главы отделения Macintosh и закрывшим его проект Big Mac. После покупки NeXT большая часть технологий компании нашла своё применение в продуктах Apple — в первую очередь NeXTSTEP, ставшая основой для Mac OS X. 20 декабря Джобс вернулся в основанную им компанию, и был представлен коллективу Apple как «советник председателя». В компании сразу же стало ощущаться движение: производство было сокращено, последовала череда кадровых замен и перестановок. Стало ясно, что Джобс попытается вернуть Apple себе, хотя сам он называл себя лишь «консультантом» и всячески открещивался от претензий на власть, ссылаясь на занятость в Pixar и необходимость уделять больше времени семье. В то же время, Джобс быстро сумел провести преданных ему людей на ключевые позиции в компании и приобрёл довольно однозначную репутацию. В сентябре Джобс был официально назначен временным CEO и де-факто возглавил Apple. В марте 1998 года Джобс пошёл на жёсткие меры для оживления компании. Он закрыл целый ряд проектов, таких как Newton, Cyberdog и OpenDoc."
         }
       ]
     },
 
+
     {
       "id": 2,
-      "name": "Name Surname ru2",
-      "age": 99,
-      "birthdayDate": "23 октября 2018",
-      "deathDate": "23 октября 2018",
-      "birthdayPlace": "Сан-Франциско, Калифорния",
+      "name": "Билл Гейтс",
+      "age": 68,
+      "birthdayDate": "28 октября 1955",
+      "deathDate": "",
+      "birthdayPlace": "Сиетл, Вашингтон",
       "nationality": "США",
-      "activity": "не придумал",
-      "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
-      "photo": "../Images/img_3.png",
-      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_3.png"],
-      "instagram": "",
-      "twitter": "",
-      "wiki": "",
-      "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
-      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.4837752903!2d30.868509307353584!3d52.425089995707125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2z0JPQvtC80LXQu9GMLCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1701354881709!5m2!1sru!2sby",
+      "activity": "Советник по технологиям Microsoft, сопреседатель Фонда Билла и Мелинды Гейтис",
+      "description": "Уи́льям Ге́нри Гейтс III (англ. William Henry Gates III; 28 октября 1955, Сиэтл, Вашингтон), более известный как Билл Гейтс (англ. Bill Gates) — американский предприниматель и общественный деятель, филантроп, один из создателей (совместно с Полом Алленом) и бывший крупнейший акционер компании Microsoft. До июня 2008 года являлся руководителем компании; после ухода с поста остался в должности её неисполнительного председателя совета директоров. Также является сопредседателем благотворительного Фонда Билла и Мелинды Гейтс, членом совета директоров Berkshire Hathaway, генеральным директором Cascade Investment.",
+      "photo": "../Images/Bill1.png",
+      "images": ["../Images/Bill2.png", "../Images/Bill3.png", "../Images/Bill4.png"],
+      "youtube": "https://www.youtube.com/embed/YgDE-d4pfTc?si=qAFF_nIDCB4EGQ5Z",
+      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.71950605686!2d-122.65387705988238!3d47.612851031084574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2z0KHQuNGN0YLQuywg0JLQsNGI0LjQvdCz0YLQvtC9LCDQodCo0JA!5e0!3m2!1sru!2sby!4v1702219233988!5m2!1sru!2sby",
       "timelineItems": [{
-        "timelineYears": "2001—2006",
-        "timelineTitle": "Lorem ipsum dolor",
-        "timelineSubtitle":"Sit voluptas Quis",
-        "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        "timelineYears": "1955-1975",
+        "timelineTitle": "Ранние годы и обучение",
+        "timelineSubtitle":"",
+        "timelineText": "Уильям Генри Гейтс III родился 28 октября 1955 года в Сиэтле, штат Вашингтон, как единственный сын Уильяма Х. Гейтса-старшего и его первой жены Мэри Максвелл Гейтс. В возрасте 13 лет он поступил в частную подготовительную школу Lakeside, где написал свою первую программу. В 17 лет Гейтс вместе с Алленом создал предприятие под названием Traf-O-Data для производства счетчиков трафика на базе процессора Intel 8008. В 1972 году он работал в Палате представителей Конгресса. Он был стипендиатом National Merit Scholar, когда окончил школу Lakeside в 1973 году. Он набрал 1590 баллов из 1600 по результатам схоластических тестов и поступил в Гарвардский колледж осенью 1973 г. Он выбрал специальность юриста, но посещал курсы математики (включая математику 55) и информатики. Во время учебы в Гарварде он познакомился с сокурсником и будущим генеральным директором Microsoft Стивом Балмером. Гейтс покинул Гарвард после двух лет обучения, а Балмер остался и окончил университет с отличием. Спустя годы Балмер сменил Гейтса на посту генерального директора Microsoft и занимал эту должность с 2000 года до своей отставки в 2014 году. Гейтс разработал алгоритм сортировки блинов как решение одной из серии нерешенных задач, представленных на занятиях по комбинаторике профессором Гарри Льюисом. Его решение удерживало рекорд как самая быстрая версия в течение более 30 лет, а его преемник быстрее всего на 2 %. Его решение было формализовано и опубликовано в сотрудничестве с гарвардским компьютерщиком Кристосом Пападимитриу. Гейтс продолжал общаться с Полом Алленом и присоединился к нему в Honeywell летом 1974 года. В 1975 году был выпущен MITS Altair 8800 на базе процессора Intel 8080, и Гейтс с Алленом увидели возможность создать свою собственную компанию по производству компьютерных программ. Гейтс оставил учебу в Гарварде в том же году. Его родители поддержали его, увидев, как сильно он хотел основать свою собственную компанию. Он объяснил свое решение уйти из Гарварда так: \"Если бы у меня ничего не получилось, я всегда мог бы вернуться в школу. Я был официально в отпуске\""
       },
         {
-          "timelineYears": "2002—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "1975-1981",
+          "timelineTitle": "Основание Microsoft",
+          "timelineSubtitle":"",
+          "timelineText": "Гейтс прочитал январский номер журнала Popular Electronics за 1975 год, в котором демонстрировался Altair 8800, и связался с Micro Instrumentation and Telemetry Systems (MITS), чтобы сообщить, что он и другие работают над интерпретатором BASIC для этой платформы. На самом деле у Гейтса и Аллена не было Altair и они не писали для него код; они просто хотели оценить интерес MITS. Президент MITS Эд Робертс согласился встретиться с ними для демонстрации, и в течение нескольких недель они разработали эмулятор Altair, который работал на миникомпьютере, а затем и интерпретатор BASIC. Демонстрация прошла в офисе MITS в Альбукерке, штат Нью-Мексико; она имела успех и привела к заключению сделки с MITS на распространение интерпретатора как Altair BASIC. MITS наняла Аллена, а Гейтс взял отпуск в Гарварде, чтобы работать с ним в MITS в ноябре 1975 года. Аллен назвал их партнерство \"Micro-Soft\", сочетание слов \"микрокомпьютер\" и \"программное обеспечение\", а их первый офис находился в Аль букерке. Первым сотрудником Гейтса и Аллена стал их школьный товарищ Рик Вейланд. Через год они отказались от дефиса и официально зарегистрировали торговое название \"Microsoft\" у секретаря штата Нью-Мексико 26 ноября 1976 года. Гейтс так и не вернулся в Гарвард для завершения учебы. Разработанный Microsoft язык Altair BASIC был популярен среди компьютерных любителей, но Гейтс обнаружил, что предпродажная копия просочилась на рынок и широко копировалась и распространялась. В феврале 1976 г. Гейтс опубликовал в информационном бюллетене MITS открытое письмо к любителям, в котором утверждал, что более 90% пользователей Microsoft Altair BASIC не заплатили за него компании Microsoft, и \"рынок любителей\" Altair может лишить профессиональных разработчиков стимула к созданию, распространению и поддержке высококачественного программного обеспечения. Microsoft стала независимой от MITS в конце 1976 года и продолжала разрабатывать программное обеспечение на языках программирования для различных систем. Компания переехала из Альбукерке в Белвью, штат Вашингтон, 1 января 1979 года. По словам Гейтса, он лично просматривал и часто переписывал каждую строчку кода, созданного компанией в первые пять лет ее существования. По мере роста компании он перешел на должность менеджера, а затем руководителя."
         },
         {
-          "timelineYears": "2003—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "1982-1990",
+          "timelineTitle": "Расцвет и доминирование на рынке",
+          "timelineSubtitle":"",
+          "timelineText": "IBM, ведущий поставщик компьютерного оборудования для коммерческих предприятий в то время, обратился к Microsoft в июле 1980 года по поводу программного обеспечения для своего нового персонального компьютера, IBM PC. IBM сначала предложила Microsoft написать интерпретатор BASIC. Представители IBM также упомянули, что им нужна операционная система, и Гейтс направил их к Digital Research (DRI), создателям широко используемой операционной системы CP/M. Однако переговоры IBM с Digital Research прошли неудачно, и они не достигли лицензионного соглашения. Представитель IBM Джек Сэмс упомянул о трудностях с лицензированием во время последующей встречи с Гейтсом и спросил, может ли Microsoft предоставить операционную систему. Несколько недель спустя Гейтс и Аллен предложили использовать 86-DOS, операционную систему, похожую на CP/M, которую Тим Патерсон из Seattle Computer Products (SCP) создал для аппаратного обеспечения, похожего на ПК. Именно престиж, который принесло Microsoft принятие IBM их операционной системы, станет началом превращения Microsoft из небольшого предприятия в ведущую компанию по производству программного обеспечения в мире. Гейтс не предложил передать авторские права на операционную систему IBM, поскольку считал, что другие производители персональных компьютеров будут клонировать аппаратное обеспечение IBM. Так и произошло, сделав IBM-совместимый ПК под управлением DOS стандартом де-факто. Продажи MS-DOS (версии DOS, продававшейся не только IBM) сделали Microsoft крупным игроком в отрасли. Microsoft и Гейтс выпустили первую розничную версию Microsoft Windows 20 ноября 1985 года, пытаясь отбиться от конкуренции со стороны графического интерфейса Apple Macintosh, который покорил потребителей своей простотой и удобством использования. В августе 1986 года компания заключила сделку с IBM на разработку отдельной операционной системы под названием OS/2. Несмотря на то что обе компании успешно разработали первую версию новой системы, сотрудничество разладилось из-за нарастающих творческих разногласий. Операционная система органично развивалась из DOS в течение десяти лет, пока не появилась Windows 95, которая по умолчанию скрывала приглашение DOS."
         },
         {
-          "timelineYears": "2004—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "1994-2006",
+          "timelineTitle": "Расширение и деверсификация",
+          "timelineSubtitle":"",
+          "timelineText": "В начале 1990-х годов Microsoft расширила свою деятельность, приобретая другие компании и запуская новые продукты. Были приобретены такие компании, как Navision, a maker of enterprise resource planning software, и Lucent, a telecommunications company. Microsoft также начала активно инвестировать в облачные технологии и мобильные приложения."
         },
         {
-          "timelineYears": "2005—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "2006",
+          "timelineTitle": "Уход с поста генерального директора Microsoft",
+          "timelineSubtitle":"",
+          "timelineText": "15 июня 2006 года Гейтс объявил о том, что собирается отойти от дел в Microsoft, чтобы посвятить больше времени филантропии. Он постепенно разделил свои обязанности между двумя преемниками, назначив Рэя Оззи ответственным за управление, а Крейга Манди - за долгосрочную стратегию развития продуктов. Процесс полной передачи обязанностей Оззи и Манди занял два года и был завершен 27 июня 2008 года. После ухода из Microsoft Гейтс продолжает заниматься благотворительностью и работает над другими проектами. Согласно индексу Bloomberg Billionaires Index, в 2013 году Гейтс стал самым высокодоходным миллиардером в мире: его состояние увеличилось на 15,8 млрд долларов США и составило 78,5 млрд долларов США. По состоянию на январь 2014 года большая часть активов Гейтса находится в компании Cascade Investment LLC, через которую он владеет долями в многочисленных предприятиях, включая Four Seasons Hotels and Resorts и Corbis Corp."
         }
       ]
     },
 
     {
       "id": 3,
-      "name": "Name Surname ru3",
-      "age": 99,
-      "birthdayDate": "23 октября 2018",
-      "deathDate": "23 октября 2018",
-      "birthdayPlace": "Сан-Франциско, Калифорния",
+      "name": "Марк Цукерберг",
+      "age": 39,
+      "birthdayDate": "14 мая 1984",
+      "deathDate": "",
+      "birthdayPlace": "Уайт-Плейнс, Нью-Йорк, США",
       "nationality": "США",
-      "activity": "не придумал",
-      "description": "Rem magni repudiandae sed ipsa architecto non placeat necessitatibus sed voluptate minima non eveniet ratione eum neque corrupti? Aut voluptas aliquid et error voluptas et aspernatur modi At mollitia distinctio rem rerum ipsa. Sed obcaecati quam vel odit assumenda et veniam aliquid qui veniam omnis aut corrupti aliquid 33 aliquid eius sed iusto sapiente. Lorem ipsum dolor sit amet. In fugit aspernatur ut dicta vitae ut molestiae corporis qui laborum galisum aut illo temporibus.",
-      "photo": "../Images/img_3.png",
-      "images": ["../Images/img.png", "../Images/img111.png", "../Images/img_3.png"],
-      "instagram": "",
-      "twitter": "",
-      "wiki": "",
-      "youtube": "https://www.youtube.com/embed/_nv9i2VIjDw?si=VcEt7gTAAKCmkVhK",
-      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.4837752903!2d30.868509307353584!3d52.425089995707125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2z0JPQvtC80LXQu9GMLCDQk9C-0LzQtdC70YzRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1701354881709!5m2!1sru!2sby",
+      "activity": "Предприниматель, специалист в области информатики, меценат, ответственный руководитель, филантроп",
+      "description": "Марк Эллиот Цукерберг (родился 14 мая 1984 года) - американский бизнесмен и филантроп. Один из основателей социального медиасервиса Facebook и его материнской компании Meta Platforms (ранее Facebook, Inc.), председателем совета директоров, главным исполнительным директором и контролирующим акционером которой он является.",
+      "photo": "../Images/Mark1.png",
+      "images": ["../Images/Mark2.png", "../Images/Mark3.png", ".../Images/Mark4.png"],
+      "youtube": "https://www.youtube.com/embed/9vjn3vvy8Ys?si=16kWRgYyxCoNjr2j",
+      "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48159.32533353685!2d-73.83262549249952!3d41.026178455171284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c29422e2a335d9%3A0x541404101a5bfc6c!2z0KPQsNC50YIt0J_Qu9C10LnQvdGBLCDQndGM0Y4t0JnQvtGA0LosINCh0KjQkA!5e0!3m2!1sru!2sby!4v1702218649101!5m2!1sru!2sby",
       "timelineItems": [{
-        "timelineYears": "2001—2006",
-        "timelineTitle": "Lorem ipsum dolor",
-        "timelineSubtitle":"Sit voluptas Quis",
-        "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+        "timelineYears": "1984-2002",
+        "timelineTitle": "Ранние годы и обучение",
+        "timelineSubtitle":"",
+        "timelineText": "Цукерберг начал пользоваться компьютерами и писать программы в средней школе. В старших классах он создал программу, которая позволяла всем компьютерам между его домом и стоматологическим кабинетом его отца общаться друг с другом. В старших классах Цукерберг работал над созданием музыкального плеера Synapse Media Player. Устройство, использующее машинное обучение для изучения привычек пользователя, было опубликовано на Slashdot и получило оценку 3 из 5 от PC Magazine. Газета New Yorker однажды сказала о Цукерберге: \"Некоторые дети играли в компьютерные игры. Марк их создал\". The New Yorker отметил, что к тому времени, когда Цукерберг начал занятия в Гарварде в 2002 году, он уже завоевал \"репутацию вундеркинда программирования\". Он изучал психологию и информатику, состоял в Alpha Epsilon Pi и Kirkland House."
       },
         {
-          "timelineYears": "2002—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "2002-2004",
+          "timelineTitle": "Основание Facebook",
+          "timelineSubtitle":"",
+          "timelineText": "На втором курсе он написал программу под названием CourseMatch, которая позволяла пользователям принимать решения о выборе занятий, основываясь на выборе других студентов, и помогала им создавать учебные группы. Позже он создал другую программу под названием Facemash, которая позволяла студентам выбирать наиболее симпатичного человека из предложенных фотографий. Ари Хасит, сосед Цукерберга по комнате в то время, объяснил: У нас были книги под названием Face Books, в которых были имена и фотографии всех, кто жил в студенческих общежитиях. Сначала он создал сайт и разместил на нем две фотографии или изображения двух мужчин и двух женщин. Посетители сайта должны были выбрать, кто из них \"сексуальнее\", и в соответствии с результатами голосования составлялся рейтинг. Сайт работал в течение выходных, но к утру понедельника колледж закрыл его, так как из-за его популярности перегрузился один из сетевых коммутаторов Гарварда, не позволяя студентам выходить в Интернет. Кроме того, многие студенты жаловались, что их фотографии используются без разрешения. Цукерберг принес публичные извинения, а в студенческой газете появились статьи, в которых говорилось, что его сайт \"совершенно неправомерен\". В январе 2004 года Цукерберг начал писать код для нового сайта. 4 февраля 2004 года Цукерберг запустил \"Thefacebook\", первоначально расположенный по адресу thefacebook.com, в сотрудничестве со своими соседями по комнате Эдуардо Саверином, Эндрю МакКоллумом, Дастином Московицем и Крисом Хьюзом. Более ранним источником вдохновения для создания Facebook могла послужить Академия Филлипса Эксетера, подготовительная школа, которую Цукерберг окончил в 2002 году. Она издавала свой собственный справочник для студентов \"Фотоадресная книга\", который студенты называли \"Фейсбук\". Такие фотокаталоги были важной частью социальной жизни студентов во многих частных школах. В них ученики могли указывать такие атрибуты, как годы учебы, друзей и номера телефонов."
         },
         {
-          "timelineYears": "2003—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "2005-2019",
+          "timelineTitle": "Рост и успех Facebook",
+          "timelineSubtitle":"",
+          "timelineText": "В 2005 году Цукерберг оставил Гарвард, чтобы сосредоточиться на развитии Facebook. Компания быстро росла и стала доступной для всех пользователей интернета в 2006 году. В последующие годы Facebook продолжала расти и стала одной из самых популярных социальных сетей в мире. Цукерберг начал активно работать над расширением Facebook за пределами социальных сетей, включая разработку мессенджера WhatsApp, компания также активно работает над созданием метавселенной и инвестирует в технологии искусственного интеллекта."
         },
         {
-          "timelineYears": "2004—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "2019",
+          "timelineTitle": "Oculus quest",
+          "timelineSubtitle":"",
+          "timelineText": "В 2019 году компания Oculus, принадлежащая Facebook, выпустила гарнитуру виртуальной реальности, представляющая собой автономный шлем, позволяющий погрузится в игровое пространство. Данная гарнитура позволяет перемещаться, взаимодействовать, слышать звуки виртуального мира и многое дургое. В гарнитуре имеются камеры, позволяющие отслеживать движение человека и осуществлять трекинг тела. На данный момент выпущено 3 версии гарнитуры, последняя из которых позволяет находится в смешанной реальности."
         },
         {
-          "timelineYears": "2005—2006",
-          "timelineTitle": "Lorem ipsum dolor",
-          "timelineSubtitle":"Sit voluptas Quis",
-          "timelineText": "Ex animi facere vel quibusdam omnis qui perspiciatis error aut ratione modi quo accusamus sapiente et iusto architecto. Eum consequuntur reprehenderit et facilis ipsum sed voluptatem molestiae et deserunt corrupti est quod reiciendis eos explicabo dolorum sed eius quia. Ut consequatur velit et eligendi sapiente eum quae velit."
+          "timelineYears": "2023",
+          "timelineTitle": "Threads",
+          "timelineSubtitle":"",
+          "timelineText": "Компания Meta запустила социальную сеть Threads, предназначенную для обмена короткими сообщениями. Сразу после запуска Twitter пригрозил Meta иском, обвинив корпорацию в краже своих технологических секретов, так как Threads сильно похожа на Twitter, а именно создавать ветки, комментировать их. Сегодня Цукерберг продолжает руководить Facebook, который стал одной из крупнейших компаний в мире, с более чем 2,8 миллиарда активных пользователей в месяц. Цукерберг также активно занимается благотворительностью и поддержкой образования и науки."
         }
       ]
     }
+
 
   ]
 }

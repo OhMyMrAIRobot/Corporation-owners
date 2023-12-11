@@ -188,9 +188,10 @@ export default function Header() {
                             noOptionsText="Нет результатов"
                             renderInput={(params) =>
                                 <TextField
-                                {...params}
-                                label = {t('search')}
-                            />}
+                                    {...params}
+                                    label = {t('search')}
+                                />
+                            }
                             options={personList}
                             onChange={(event, value, reason, details) => {
                                 personList.forEach((person) => {
@@ -204,6 +205,7 @@ export default function Header() {
                                 if (event.code === 'Enter' && inputValue !== ""){
                                     navigate(`/Persons/${inputValue}`);
                                     window.scrollTo(0, 0);
+
                                 }
                             }}
                         />

@@ -6,7 +6,6 @@ import {useNavigate} from "react-router-dom";
 const PersonOfTheDay = ({personId}) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
-    console.log(personId);
     const persons = t("persons", { returnObjects: true });
 
     const MoreButton = (

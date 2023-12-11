@@ -11,7 +11,7 @@ const MainPage = () => {
         <div>
             <MainContainer>
                 <About />
-                <PersonOfTheDay personId={personId}/>
+                <PersonOfTheDay personId={3}/>
                 <Authors />
             </MainContainer>
         </div>

@@ -13,15 +13,15 @@ const Item = ({person}) => {
         <Card className = "cardPerson" sx = {{
             backgroundColor: 'inherit',
             boxShadow: '-moz-initial',
-            WebkitBoxShadow: '5px 6px 10px grey'
-        }}
+            WebkitBoxShadow: '5px 6px 10px grey',
+            cursor: 'pointer'
+            }}
+              onClick={() => {
+                  navigate(`/Persons/${person.id}`);
+                  window.scrollTo(0, 0);
+              }}
             >
-            <CardActionArea
-                onClick={() => {
-                    navigate(`/Persons/${person.id}`);
-                    window.scrollTo(0, 0);
-                }}
-            >
+            <CardActionArea>
                 <CardMedia
                     component="img"
                     height="auto"

@@ -167,12 +167,19 @@ export default function Header() {
                         </MyLink>
 
                     </Typography>
-                    <Search>
+                    <Search
+                        sx={{
+                            height: "40px",
+                            marginTop: "-15px"
+                        }}
+                    >
                         <Autocomplete
                             sx={{
                                 width: 'auto',
                                 minWidth: 270,
-                                height: '50px',
+                                height: '55px',
+                                marginTop: '-5px',
+                                borderRadius: '5px',
                                 backgroundColor: 'background.paper'
                             }}
                             autoComplete={true}

@@ -13,7 +13,7 @@ const PersonOfTheDay = ({personId}) => {
         <Button
             variant="contained"
             onClick={() => {
-                navigate(`/${personId + 1}`)
+                navigate(`/Persons/${personId + 1}`)
                 window.scrollTo(0, 0);
             }}
             sx={{

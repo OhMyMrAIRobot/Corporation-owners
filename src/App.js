@@ -40,7 +40,7 @@ function App() {
                    </Box>
 
                        <Routes>
-                           <Route path="/" element={<MainPage />}/>
+                           <Route path="/Corporation-owners" element={<MainPage />}/>
                            <Route path="/About" element={<AboutPage />} />
                            <Route path="/Persons" element={<PersonListPage />} />
                            <Route path = "/Persons/:id" element={<PersonPage/>}/>

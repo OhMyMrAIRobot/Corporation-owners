@@ -66,7 +66,7 @@ export default function Header() {
 
     const pages = [
         [t('appName'), '/'],
-        [t('appFigures'), '/Personlist'],
+        [t('appFigures'), '/Persons'],
         [t('appAbout'),'/About'],
     ]
 
@@ -143,7 +143,7 @@ export default function Header() {
                         </Link>
 
                         <Link
-                            to = "/Personlist"
+                            to = "/Persons"
                             className = "NavLink"
                         >
                             {t('appFigures')}

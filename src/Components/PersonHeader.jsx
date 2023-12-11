@@ -26,32 +26,21 @@ const PersonHeader = ({person}) => {
                     justifyContent: 'space-between',
                 }}
             >
-                <Box
-                    width = {'50%'}
-                >
-                    <img
-                        src={person.photo}
-                        alt={person.name}
-                        width='100%'
-                        style={{
-                            boxShadow: '-moz-initial',
-                            WebkitBoxShadow: '5px 6px 50px grey'
+                <img
+                    src={person.photo}
+                    alt={person.name}
+                    width='50%'
+                    style={{
+                        boxShadow: '-moz-initial',
+                        WebkitBoxShadow: '5px 6px 50px grey'
                     }}
-                    />
+                />
 
-                    <Typography
-                        textAlign = "center"
-                        mx = {{
-                            marginTop: '10px',
-                            fontSize: '1.5em'
-                    }}
-                    >
-                        {t("age")}{person.age}
-                    </Typography>
-                </Box>
 
                 <Box
                     width = "40%"
+                    marginTop = "auto"
+                    marginBottom = "auto"
                 >
                     <Typography
                         sx = {{
@@ -72,15 +61,27 @@ const PersonHeader = ({person}) => {
                         {t("birthdayDate")}{person.birthdayDate}
                     </Typography>
 
-                    <Typography
-                        sx = {{
-                            fontSize: '1.2rem',
-                            marginTop: '0.5em',
-                            fontStyle: 'italic',
-                        }}
-                    >
-                        {t("deathDate")}{person.deathDate}
-                    </Typography>
+                    {person.deathDate !== "" ?
+                        <Typography
+                            sx = {{
+                                fontSize: '1.2rem',
+                                marginTop: '0.5em',
+                                fontStyle: 'italic',
+                            }}
+                        >
+                            {t("deathDate")}{person.deathDate}
+                        </Typography>
+                        :
+                        <Typography
+                            sx = {{
+                                fontSize: '1.2rem',
+                                marginTop: '0.5em',
+                                fontStyle: 'italic',
+                            }}
+                        >
+                            {t("age")}{person.age}
+                        </Typography>
+                    }
 
                     <Typography
                         sx = {{
@@ -112,19 +113,19 @@ const PersonHeader = ({person}) => {
                         {t("activity")}{person.activity}
                     </Typography>
 
-                    <Typography
-                         sx = {{
-                             fontSize: '1.2rem',
-                             marginTop: '2em',
-                             fontStyle: 'italic',
-                             textAlign: 'justify',
-                         }}
-                    >
-                        {person.description}
-                    </Typography>
-
                 </Box>
             </Box>
+
+            <Typography
+                sx = {{
+                    fontSize: '1.3rem',
+                    marginTop: '4em',
+                    fontStyle: 'italic',
+                    textAlign: 'center',
+                }}
+            >
+                {person.description}
+            </Typography>
         </div>
     );
 };

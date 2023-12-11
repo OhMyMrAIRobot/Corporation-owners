@@ -16,7 +16,7 @@ const theme = createTheme(themeOptions);
 
 function App() {
     useEffect(() => {
-        const RandomId = Math.floor(Math.random() * 3) + 1;
+        const RandomId = Math.floor(Math.random() * 6) + 1;
         localStorage.removeItem('randomId');
         localStorage.setItem('randomId', RandomId);
         console.log('rand');
@@ -42,8 +42,8 @@ function App() {
                        <Routes>
                            <Route path="/" element={<MainPage />}/>
                            <Route path="/About" element={<AboutPage />} />
-                           <Route path="/Personlist" element={<PersonListPage />} />
-                           <Route path = "/:id" element={<PersonPage/>}/>
+                           <Route path="/Persons" element={<PersonListPage />} />
+                           <Route path = "/Persons/:id" element={<PersonPage/>}/>
                        </Routes>
                    <Footer/>
                </div>

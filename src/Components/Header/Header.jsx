@@ -136,7 +136,7 @@ export default function Header() {
                     }}
                     >
                         <Link
-                            to = "/Corporation-owners"
+                            to = "/"
                             className = "NavTitle"
                         >
                             {t('appName')}

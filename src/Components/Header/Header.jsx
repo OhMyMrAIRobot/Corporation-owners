@@ -195,7 +195,7 @@ export default function Header() {
                             }
                             onKeyPressCapture={(event) => {
                                 if (event.code === 'Enter' && inputValue !== ""){
-                                    navigate(`/${inputValue}`);
+                                    navigate(`/Persons/${inputValue}`);
                                     window.scrollTo(0, 0);
                                 }
                             }}

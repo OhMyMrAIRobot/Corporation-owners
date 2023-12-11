@@ -27,7 +27,7 @@ const PersonHeader = ({person}) => {
                 }}
             >
                 <img
-                    src={person.photo}
+                    src={process.env.PUBLIC_URL + person.photo}
                     alt={person.name}
                     width='50%'
                     style={{

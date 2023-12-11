@@ -38,8 +38,8 @@
       "nationality": "U.S.",
       "activity": "Businessman, inventor, industrial designer, Co-founder, chairman, and CEO of Apple Inc, NeXT and Pixar",
       "description": "Steven Paul (Steve) Jobs (born Abdul Latif Jandali; February 24, 1955, San Francisco, California, United States - October 5, 2011, Palo Alto, Santa Clara, California, United States) was an American entrepreneur, inventor, and industrial designer widely recognized as a pioneer of the information technology era. Co-founder, chairman and CEO of Apple Corporation. Co-founder and CEO of the Pixar movie studio.",
-      "photo": "./Images/Steve1.png",
-      "images": ["./Images/Steve2.png", "./Images/Steve3.png", "./Images/Steve4.png"],
+      "photo": "../Images/Steve1.png",
+      "images": ["../Images/Steve2.png", "../Images/Steve3.png", "../Images/Steve4.png"],
       "youtube": "https://www.youtube.com/embed/s4pVFLUlx8g?si=NGnnTea7dL_nnJb8",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.99641120159!2d-122.52000086435882!3d37.757807037289176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sby!4v1702219559536!5m2!1sru!2sby",
       "timelineItems": [{

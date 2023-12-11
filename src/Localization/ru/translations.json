@@ -39,7 +39,7 @@
       "activity": "Предприниматель, изобретатель, промышленный дизайнер, сооснователь и CEO компании Apple, NeXT и Pixar",
       "description": "Сти́вен Пол (Стив) Джобс (англ. Steven Paul (Steve) Jobs, имя при рождении — Абдул Латиф Джандали; 24 февраля 1955, Сан-Франциско, Калифорния, США — 5 октября 2011, Пало-Алто, Санта-Клара, Калифорния, США) — американский предприниматель, изобретатель и промышленный дизайнер, получивший широкое признание в качестве пионера эры информационных технологий. Один из основателей, председатель совета директоров и CEO корпорации Apple. Один из основателей и CEO киностудии Pixar.",
       "photo": "/Images/Steve1.png",
-      "images": ["../Images/Steve2.png", "../Images/Steve3.png", "../Images/Steve4.png"],
+      "images": ["/Images/Steve2.png", "/Images/Steve3.png", "/Images/Steve4.png"],
       "youtube": "https://www.youtube.com/embed/GuJs89N3rcw?si=7VY38LkyvQ-i2dlJ",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.99641120159!2d-122.52000086435882!3d37.757807037289176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sby!4v1702219559536!5m2!1sru!2sby",
       "timelineItems": [{
@@ -86,8 +86,8 @@
       "nationality": "США",
       "activity": "Советник по технологиям Microsoft, сопреседатель Фонда Билла и Мелинды Гейтис",
       "description": "Уи́льям Ге́нри Гейтс III (англ. William Henry Gates III; 28 октября 1955, Сиэтл, Вашингтон), более известный как Билл Гейтс (англ. Bill Gates) — американский предприниматель и общественный деятель, филантроп, один из создателей (совместно с Полом Алленом) и бывший крупнейший акционер компании Microsoft. До июня 2008 года являлся руководителем компании; после ухода с поста остался в должности её неисполнительного председателя совета директоров. Также является сопредседателем благотворительного Фонда Билла и Мелинды Гейтс, членом совета директоров Berkshire Hathaway, генеральным директором Cascade Investment.",
-      "photo": "../Images/Bill1.png",
-      "images": ["../Images/Bill2.png", "../Images/Bill3.png", "../Images/Bill4.png"],
+      "photo": "/Images/Bill1.png",
+      "images": ["/Images/Bill2.png", "/Images/Bill3.png", "/Images/Bill4.png"],
       "youtube": "https://www.youtube.com/embed/YgDE-d4pfTc?si=qAFF_nIDCB4EGQ5Z",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.71950605686!2d-122.65387705988238!3d47.612851031084574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2z0KHQuNGN0YLQuywg0JLQsNGI0LjQvdCz0YLQvtC9LCDQodCo0JA!5e0!3m2!1sru!2sby!4v1702219233988!5m2!1sru!2sby",
       "timelineItems": [{
@@ -133,8 +133,8 @@
       "nationality": "США",
       "activity": "Предприниматель, специалист в области информатики, меценат, ответственный руководитель, филантроп",
       "description": "Марк Эллиот Цукерберг (родился 14 мая 1984 года) - американский бизнесмен и филантроп. Один из основателей социального медиасервиса Facebook и его материнской компании Meta Platforms (ранее Facebook, Inc.), председателем совета директоров, главным исполнительным директором и контролирующим акционером которой он является.",
-      "photo": "../Images/Mark1.png",
-      "images": ["../Images/Mark2.png", "../Images/Mark3.png", ".../Images/Mark4.png"],
+      "photo": "/Images/Mark1.png",
+      "images": ["/Images/Mark2.png", "/Images/Mark3.png", "/Images/Mark4.png"],
       "youtube": "https://www.youtube.com/embed/9vjn3vvy8Ys?si=16kWRgYyxCoNjr2j",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48159.32533353685!2d-73.83262549249952!3d41.026178455171284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c29422e2a335d9%3A0x541404101a5bfc6c!2z0KPQsNC50YIt0J_Qu9C10LnQvdGBLCDQndGM0Y4t0JnQvtGA0LosINCh0KjQkA!5e0!3m2!1sru!2sby!4v1702218649101!5m2!1sru!2sby",
       "timelineItems": [{
@@ -180,8 +180,8 @@
       "nationality": "США",
       "activity": "Предприниматель, инженер",
       "description": "И́лон Рив Маск — американский предприниматель, инженер и миллиардер. Основатель, генеральный директор и главный инженер компании SpaceX; инвестор, генеральный директор и архитектор продукта компании Tesla; основатель The Boring Company; соучредитель Neuralink и OpenAI; владелец Twitter (X).7 января 2021 года, с состоянием по оценочным данным в 185 млрд $, впервые стал богатейшим человеком планеты, сместив на второе место основателя Amazon Джеффа Безоса. 1 ноября 2021 года стал первым человеком в истории, чьё состояние достигло отметки в 300 млрд $.За выдающиеся заслуги перед наукой 9 мая 2018 года удостоен членства Лондонского королевского общества. В декабре 2021 года журнал Time признал Илона Маска «Человеком года».",
-      "photo": "../Images/Musk1.png",
-      "images": ["../Images/Musk2.png", "../Images/Musk3.png", "../Images/Musk4.png"],
+      "photo": "/Images/Musk1.png",
+      "images": ["/Images/Musk2.png", "/Images/Musk3.png", "/Images/Musk4.png"],
       "youtube": "https://www.youtube.com/embed/kWdzeVEwaWI?si=fMidSVb69RtnQ7HD",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d511631.13646276866!2d29.4353643!3d59.9394575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95619cbec65033%3A0xf66262b07a847b4c!2z0J_RgNC10YLQvtGA0LjRjywg0K7QttC90LDRjyDQkNGE0YDQuNC60LA!5e0!3m2!1sru!2sby!4v1702305353077!5m2!1sru!2sby",
       "timelineItems": [{
@@ -227,8 +227,8 @@
       "nationality": "США",
       "activity": "предприниматель",
       "description": "Дже́ффри Престон «Джефф» Бе́зос  — американский предприниматель, основатель интернет-компании Amazon.com, создатель и владелец аэрокосмической компании Blue Origin, является главой издательского дома The Washington Post.В 2017 году стал богатейшим человеком мира по версии Forbes, обладая состоянием 90,5 млрд $. В конце января 2022 года состояние Безоса оценивалось уже в 302 млрд $, что сделало его третьим человеком в современной истории, чье состояние превысило 300 млрд $.В январе 2022 года уступил третью позицию в рейтинге богатейших людей мира CEO Tesla и основателю SpaceX Илону Маску. По данным Forbes состояние Безоса на май 2022 года оценивается в 150,1 млрд $.",
-      "photo": "../Images/Bezos1.png",
-      "images": ["../Images/Bezos2.png", "../Images/Bezos3.png", "../Images/Bezos4.png"],
+      "photo": "/Images/Bezos1.png",
+      "images": ["/Images/Bezos2.png", "/Images/Bezos3.png", "/Images/Bezos4.png"],
       "youtube": "https://www.youtube.com/embed/oLTgbpgOlG0?si=Wv-0gZCsCSCYvO22",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208957.83135977498!2d-106.84128842247968!3d35.082579388007005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220addd309837b%3A0xc0d3f8ceb8d9f6fd!2z0JDQu9GM0LHRg9C60LXRgNC60LUsINCd0YzRji3QnNC10LrRgdC40LrQviwg0KHQqNCQ!5e0!3m2!1sru!2sby!4v1702306024747!5m2!1sru!2sby",
       "timelineItems": [{
@@ -274,8 +274,8 @@
       "nationality": "Россия",
       "activity": "Предприниматель, программист",
       "description": "Павел Валерьевич Дуров — российский предприниматель, программист, создатель социальной сети ВКонтакте и мессенджера Telegram.",
-      "photo": "../Images/Durov1.png",
-      "images": ["../Images/Durov2.png", "../Images/Durov3.png", "../Images/Durov4.png"],
+      "photo": "/Images/Durov1.png",
+      "images": ["/Images/Durov2.png", "/Images/Durov3.png", "/Images/Durov4.png"],
       "youtube": "https://www.youtube.com/embed/cxtW_U44YFI?si=le7t3mKq_MyBIjcg",
       "googlemap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1023918.2106462105!2d27.598072104223764!3d59.918198470178666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2sby!4v1702306462923!5m2!1sru!2sby",
       "timelineItems": [{

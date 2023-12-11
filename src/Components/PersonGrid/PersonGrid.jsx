@@ -25,7 +25,7 @@ const Item = ({person}) => {
                 <CardMedia
                     component="img"
                     height="auto"
-                    src={person.photo}
+                    src={process.env.PUBLIC_URL + person.photo}
                     alt="photo"
 
                 />

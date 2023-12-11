@@ -16,7 +16,7 @@ const Item = (props) => {
                     boxShadow: '-moz-initial',
                     WebkitBoxShadow: '5px 6px 10px grey'
                 }}
-                src = {props.path}
+                src = {process.env.PUBLIC_URL + props.path}
                 alt = {props.key}
             />
         </Box>

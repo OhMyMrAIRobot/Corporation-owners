@@ -23,7 +23,7 @@ export function Author({path, name, link}) {
                 display='flex'
                 justifyContent='center'
             >
-                <img src={path} alt={name}
+                <img src={process.env.PUBLIC_URL + path} alt={name}
                     height={'150em'}
                     width={'150em'}
                     style={{

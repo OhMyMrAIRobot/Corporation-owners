@@ -8,9 +8,9 @@ import {useTranslation} from "react-i18next";
 export function Authors() {
     const { t } = useTranslation();
     const authors = [
-        { path: "../Images/img111.png", name: t('author1'), link: 'https://github.com/' },
-        { path: "../Images/img111.png", name: t('author2'), link: 'https://github.com/' },
-        { path: "../Images/img111.png", name: t('author3'), link: 'https://github.com/' },
+        { path: "/Images/img_3.png", name: t('author1'), link: 'https://github.com/' },
+        { path: "/Images/img_3.png", name: t('author2'), link: 'https://github.com/' },
+        { path: "/Images/img_3.png", name: t('author3'), link: 'https://github.com/' },
     ]
 
     return (

@@ -2,7 +2,7 @@
     margin-bottom: 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .cardPerson{
         width: 100%;
@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 
     .cardPerson{
         width: 40%;

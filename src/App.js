@@ -15,13 +15,6 @@ import Footer from "./Components/Footer/Footer";
 const theme = createTheme(themeOptions);
 
 function App() {
-    useEffect(() => {
-        const RandomId = Math.floor(Math.random() * 6) + 1;
-        localStorage.removeItem('randomId');
-        localStorage.setItem('randomId', RandomId);
-        console.log('rand');
-    }, []);
-
    return(
        <I18nextProvider i18n={i18next}>
            <ThemeProvider theme={theme}>

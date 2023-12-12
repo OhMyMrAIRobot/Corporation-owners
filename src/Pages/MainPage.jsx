@@ -4,14 +4,17 @@ import {About} from "../Components/About";
 import {Authors} from "../Components/Authors";
 import PersonOfTheDay from "../Components/PersonOfTheDay";
 
-const personId = localStorage.getItem('randomId') - 1;
+let personId = -1;
+if (personId < 0)
+    personId = Math.floor(Math.random() * 6) + 1;
 
 const MainPage = () => {
+    console.log(personId);
     return (
         <div>
             <MainContainer>
                 <About />
-                <PersonOfTheDay personId={3}/>
+                <PersonOfTheDay personId={personId}/>
                 <Authors />
             </MainContainer>
         </div>

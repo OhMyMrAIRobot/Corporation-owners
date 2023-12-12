@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Typography} from "@mui/material";
 import {t} from "i18next";
+import "./PersonHeader.css"
 
 const PersonHeader = ({person}) => {
     return (
@@ -20,16 +21,15 @@ const PersonHeader = ({person}) => {
             </Typography>
 
             <Box
+                className = "imgBox"
                 sx = {{
                     marginTop: '3em',
-                    display: 'flex',
-                    justifyContent: 'space-between',
                 }}
             >
                 <img
+                    className = "mainImg"
                     src={process.env.PUBLIC_URL + person.photo}
                     alt={person.name}
-                    width='50%'
                     style={{
                         boxShadow: '-moz-initial',
                         WebkitBoxShadow: '5px 6px 50px grey'
@@ -38,9 +38,8 @@ const PersonHeader = ({person}) => {
 
 
                 <Box
-                    width = "40%"
-                    marginTop = "auto"
-                    marginBottom = "auto"
+                    className = "personInfo"
+
                 >
                     <Typography
                         sx = {{

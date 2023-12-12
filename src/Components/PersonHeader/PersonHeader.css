@@ -1,0 +1,31 @@
+@media (max-width: 700px) {
+
+    .mainImg{
+        width: 100%;
+    }
+
+    .personInfo{
+        margin-top: 3em;
+    }
+
+}
+
+@media (min-width: 700px) {
+
+    .imgBox{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .personInfo{
+        width: 40%;
+        margin-Top: auto;
+        margin-Bottom: auto;
+    }
+
+    .mainImg{
+        width: 50%;
+    }
+
+
+}

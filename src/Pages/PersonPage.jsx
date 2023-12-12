@@ -2,7 +2,7 @@ import React from 'react';
 import MainContainer from "../Components/MainContainer";
 import {useTranslation} from "react-i18next";
 import {useParams} from "react-router-dom";
-import PersonHeader from "../Components/PersonHeader";
+import PersonHeader from "../Components/PersonHeader/PersonHeader";
 import MyTimeline from "../Components/MyTimeline"
 import ImageCarousel from "../Components/ImageCarousel";
 import {Typography} from "@mui/material";

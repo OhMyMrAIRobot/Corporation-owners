@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useEffect} from "react";
+import React from "react";
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { Box } from '@mui/material';
 import { themeOptions } from './Themes/Themes'
@@ -34,9 +34,9 @@ function App() {
 
                        <Routes>
                            <Route path="/Corporation-owners" element={<MainPage />}/>
-                           <Route path="/About" element={<AboutPage />} />
-                           <Route path="/Persons" element={<PersonListPage />} />
-                           <Route path = "/Persons/:id" element={<PersonPage/>}/>
+                           <Route path="/Corporation-owners/About" element={<AboutPage />} />
+                           <Route path="/Corporation-owners/Persons" element={<PersonListPage />} />
+                           <Route path = "/Corporation-owners/Persons/:id" element={<PersonPage/>}/>
                        </Routes>
                    <Footer/>
                </div>

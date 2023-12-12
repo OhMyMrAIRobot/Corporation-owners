@@ -11,7 +11,7 @@ const Footer = () => {
         return (
             <Link
                 className = 'AboutLink'
-                to="/About"
+                to="/Corporation-owners/About"
                 onClick={() => {
                     window.scrollTo(0, 0);
                 }}

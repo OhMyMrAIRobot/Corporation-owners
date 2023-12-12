@@ -65,9 +65,9 @@ export default function Header() {
     };
 
     const pages = [
-        [t('appName'), '/'],
-        [t('appFigures'), '/Persons'],
-        [t('appAbout'),'/About'],
+        [t('appName'), '/Corporation-owners'],
+        [t('appFigures'), '/Corporation-owners/Persons'],
+        [t('appAbout'),'/Corporation-owners/About'],
     ]
 
     const [inputValue, setInputValue] = useState("")
@@ -143,13 +143,13 @@ export default function Header() {
                         </Link>
 
                         <Link
-                            to = "/Persons"
+                            to = "/Corporation-owners/Persons"
                             className = "NavLink"
                         >
                             {t('appFigures')}
                         </Link>
                         <Link
-                            to = "/About"
+                            to = "/Corporation-owners/About"
                             className = "NavLink"
                         >
                             {t('appAbout')}
@@ -203,7 +203,7 @@ export default function Header() {
                             }
                             onKeyPressCapture={(event) => {
                                 if (event.code === 'Enter' && inputValue !== ""){
-                                    navigate(`/Persons/${inputValue}`);
+                                    navigate(`/Corporation-owners/Persons/${inputValue}`);
                                     window.scrollTo(0, 0);
 
                                 }

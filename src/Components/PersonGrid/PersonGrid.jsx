@@ -17,7 +17,7 @@ const Item = ({person}) => {
             cursor: 'pointer'
             }}
               onClick={() => {
-                  navigate(`/Persons/${person.id}`);
+                  navigate(`/Corporation-owners/Persons/${person.id}`);
                   window.scrollTo(0, 0);
               }}
             >

@@ -1,6 +1,7 @@
 import Typography from "@mui/material/Typography";
 import React from "react";
 import Box from "@mui/material/Box";
+import './Author.css'
 
 export function Author({path, name, link}) {
 
@@ -16,12 +17,14 @@ export function Author({path, name, link}) {
             margin='auto'
         >
             <Box
-                style={{
+                className = "authorContainer"
+                sx={{
                     height: '9.em',
-                    width: '10.5em'
-            }}
-                display='flex'
-                justifyContent='center'
+                    width: '10.5em',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    transition: '1s',
+                }}
             >
                 <img src={process.env.PUBLIC_URL + path} alt={name}
                     height={'150em'}
@@ -30,7 +33,7 @@ export function Author({path, name, link}) {
                         boxShadow: '-moz-initial',
                         cursor: 'pointer',
                         borderRadius: '75px',
-                        WebkitBoxShadow: '5px 6px 200px grey'
+                        WebkitBoxShadow: '5px 6px 200px grey',
                     }}
                     onClick={() => window.open(link)}
                 />

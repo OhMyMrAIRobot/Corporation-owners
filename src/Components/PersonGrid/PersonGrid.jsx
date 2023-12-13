@@ -10,11 +10,14 @@ const Item = ({person}) => {
     const { t } = useTranslation();
     const navigate = useNavigate();
     return(
-        <Card className = "cardPerson" sx = {{
-            backgroundColor: 'inherit',
-            boxShadow: '-moz-initial',
-            WebkitBoxShadow: '5px 6px 10px grey',
-            cursor: 'pointer'
+        <Card
+            className = "cardPerson"
+            sx = {{
+                backgroundColor: 'inherit',
+                boxShadow: '-moz-initial',
+                WebkitBoxShadow: '5px 6px 10px grey',
+                cursor: 'pointer',
+                transition: 'all 1s ease',
             }}
               onClick={() => {
                   navigate(`/Corporation-owners/Persons/${person.id}`);

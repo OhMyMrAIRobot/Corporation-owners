@@ -6,6 +6,7 @@ const YouTube = ({link}) => {
         <iframe
             className = "YTContainer"
             style={{
+                border: "0",
                 marginTop: "1em",
                 boxShadow: '-moz-initial',
                 WebkitBoxShadow: '5px 6px 50px grey'

@@ -2,6 +2,11 @@
     margin-bottom: 50px;
 }
 
+.cardPerson:hover{
+    transition: all 1s ease;
+    transform: scale(1.05);
+}
+
 @media (max-width: 600px) {
 
     .cardPerson{

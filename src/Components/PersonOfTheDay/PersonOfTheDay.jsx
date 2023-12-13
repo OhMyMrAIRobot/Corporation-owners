@@ -2,6 +2,7 @@ import React from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
+import './PersonOfTheDay.css'
 
 const PersonOfTheDay = ({personId}) => {
     const { t } = useTranslation();
@@ -10,16 +11,24 @@ const PersonOfTheDay = ({personId}) => {
 
     const MoreButton = (
         <Button
+            className = "MoreBtn"
             variant="contained"
             onClick={() => {
-                navigate(`/Corporation-owners/Persons/${personId + 1}`)
+                navigate(`/Corporation-owners/Persons/${personId}`)
                 window.scrollTo(0, 0);
             }}
             sx={{
+                transition: 'all 0.8s ease',
                 marginTop: '1em',
                 width: 'fit-content',
                 marginLeft: 'auto',
                 marginRight: 'auto',
+                '&:hover': {
+                    background: 'rgba(0,0,0,0)',
+                    color: '#212121',
+                    boxShadow: 'inset 0 0 0 3px #212121',
+                    transition: 'all 0.5s ease',
+                }
             }}
         >
             {t('btnMore')}
@@ -37,7 +46,7 @@ const PersonOfTheDay = ({personId}) => {
                 textAlign: "center",
             }}
         >
-            {persons[personId].name}
+            {persons[personId-1].name}
         </Typography>
     )
 
@@ -53,7 +62,7 @@ const PersonOfTheDay = ({personId}) => {
                 textAlign: 'center'
             }}
         >
-            {persons[personId].description}
+            {persons[personId-1].description}
         </Typography>
     )
 

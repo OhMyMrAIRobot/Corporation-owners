@@ -1,6 +1,6 @@
 import Container from '@mui/material/Container'
 import Box from "@mui/material/Box";
-import {Author} from "./Author";
+import {Author} from "./Author/Author";
 import {Typography} from "@mui/material";
 import React from "react";
 import {useTranslation} from "react-i18next";

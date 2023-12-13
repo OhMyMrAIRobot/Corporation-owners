@@ -143,12 +143,18 @@ export default function Header() {
                         </Link>
 
                         <Link
+                            sx = {{
+                                transition: '1s',
+                            }}
                             to = "/Corporation-owners/Persons"
                             className = "NavLink"
                         >
                             {t('appFigures')}
                         </Link>
                         <Link
+                            sx = {{
+                                transition: '1s',
+                            }}
                             to = "/Corporation-owners/About"
                             className = "NavLink"
                         >
@@ -159,7 +165,7 @@ export default function Header() {
                             sx={{
                                 textDecoration: 'none'
                             }}
-                            className = "NavLink"
+                            className = "Lng"
                              color = 'inherit'
                             onClick={swapLanguage}
                         >

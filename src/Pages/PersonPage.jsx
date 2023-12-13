@@ -6,8 +6,8 @@ import PersonHeader from "../Components/PersonHeader/PersonHeader";
 import MyTimeline from "../Components/MyTimeline"
 import ImageCarousel from "../Components/ImageCarousel";
 import {Typography} from "@mui/material";
-import YouTube from "../Components/YouTube";
-import GoogleMap from "../Components/GoogleMap";
+import YouTube from "../Components/YouTube/YouTube";
+import GoogleMap from "../Components/GoogleMap/GoogleMap";
 
 const HeadText = ({text}) => {
     return (

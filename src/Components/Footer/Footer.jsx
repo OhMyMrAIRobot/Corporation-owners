@@ -42,8 +42,9 @@ const Footer = () => {
                 sx = {{
                     display: 'flex',
                     flexDirection: 'row',
+                    flexFlow: "wrap",
                     justifyContent: 'center',
-                    minHeight: '50px',
+                    minHeight: '60px',
                     alignItems: 'center',
                     fontSize: '1.2rem',
                     whiteSpace: 'pre',

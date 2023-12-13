@@ -1,8 +1,10 @@
 import React from 'react';
+import './GoogleMap.css'
 
-const YouTube = ({link}) => {
+const GoogleMap = ({link}) => {
     return (
         <iframe
+            className = "MapContainer"
             style={{
                 marginTop: "1em",
                 border: '0',
@@ -10,12 +12,16 @@ const YouTube = ({link}) => {
                 WebkitBoxShadow: '5px 6px 50px grey'
             }}
             width= "100%"
-            height="500px"
             src = {link}
             allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
         >
         </iframe>
     );
 };
 
-export default YouTube;
+export default GoogleMap;
+
+
+

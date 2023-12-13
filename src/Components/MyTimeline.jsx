@@ -12,11 +12,10 @@ import Typography from '@mui/material/Typography';
 export default function MyTimeline({items}) {
     return (
         <>
-
             <Timeline
                 position="alternate"
                 sx ={{
-                    marginTop: '1em'
+                    marginTop: '1em',
                 }}
             >
                 <TimelineItem>
@@ -34,7 +33,8 @@ export default function MyTimeline({items}) {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
-                        <TimelineDot color = "TimelineSecondary">
+                        <TimelineDot
+                            color = "TimelineSecondary">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
@@ -91,23 +91,25 @@ export default function MyTimeline({items}) {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector/>
-                        <TimelineDot color = "TimelinePrimary">
+                        <TimelineDot
+                            color = "TimelinePrimary">
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent sx={{
-                        py: '12px', px: 2
-                    }}>
+                    <TimelineContent
+                        sx={{
+                            py: '12px', px: 2
+                        }}
+                    >
                         <Typography
                             sx = {{
                                 fontStyle: 'oblique',
                                 fontWeight: '700',
                             }}
-                            variant="h5"
+                            variant="h6"
                         >
                             {items[1].timelineTitle}
                         </Typography>
-
                         <Typography
                             sx = {{
                                 fontStyle: 'italic',
@@ -118,7 +120,6 @@ export default function MyTimeline({items}) {
                         >
                             {items[1].timelineSubtitle}
                         </Typography>
-
                         <Typography
                             sx = {{
                                 fontStyle: 'italic',

@@ -8,6 +8,7 @@ import ImageCarousel from "../Components/ImageCarousel";
 import {Typography} from "@mui/material";
 import YouTube from "../Components/YouTube/YouTube";
 import GoogleMap from "../Components/GoogleMap/GoogleMap";
+import Delimiter from "../Components/Delimiter";
 
 const HeadText = ({text}) => {
     return (
@@ -20,7 +21,6 @@ const HeadText = ({text}) => {
                 fontStyle: 'oblique',
                 fontWeight: 'medium',
                 textAlign: 'center',
-                marginTop: "1.5em"
             }}
         >
             {text}
@@ -42,6 +42,8 @@ const PersonPage = () => {
                     person={persons[personId]}
                 />
 
+                <Delimiter marginTop = '50px' paddingBottom = '50px'/>
+
                 <HeadText
                     text = {t("timeline")}
                 />
@@ -49,6 +51,8 @@ const PersonPage = () => {
                 <MyTimeline
                     items={persons[personId].timelineItems}
                 />
+
+                <Delimiter marginTop = '50px' paddingBottom = '50px'/>
 
                 <HeadText
                     text = {t("photos")}
@@ -58,6 +62,8 @@ const PersonPage = () => {
                     items = {persons[personId].images}
                 />
 
+                <Delimiter marginTop = '50px' paddingBottom = '50px'/>
+
                 <HeadText
                     text = {t("YoutubeHeader")}
                 />
@@ -65,6 +71,8 @@ const PersonPage = () => {
                 <YouTube
                     link = {persons[personId].youtube}
                 />
+
+                <Delimiter marginTop = '50px' paddingBottom = '50px'/>
 
                 <HeadText
                     text = {t("MapHeader")}

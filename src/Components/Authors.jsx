@@ -8,9 +8,9 @@ import {useTranslation} from "react-i18next";
 export function Authors() {
     const { t } = useTranslation();
     const authors = [
-        { path: "/Images/img_3.png", name: t('author1'), link: 'https://github.com/' },
-        { path: "/Images/img_3.png", name: t('author2'), link: 'https://github.com/' },
-        { path: "/Images/img_3.png", name: t('author3'), link: 'https://github.com/' },
+        { path: "/Images/Author1.png", name: t('author1'), link: 'https://github.com/pokroshik' },
+        { path: "/Images/img_3.png", name: t('author2'), link: 'https://github.com/OhMyMrAIRobot' },
+        { path: "/Images/img_3.png", name: t('author3'), link: 'https://github.com/MeShok724' },
     ]
 
     return (
@@ -21,7 +21,7 @@ export function Authors() {
                 color='text.primary'
                 gutterBottom
                 sx={{
-                    marginTop: '2em',
+                    marginTop: '50px',
                     fontStyle: "oblique",
                     fontWeight: "medium",
                     textAlign: "center",

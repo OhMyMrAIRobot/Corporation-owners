@@ -2,13 +2,13 @@ import React from 'react';
 import {Box, Typography} from "@mui/material";
 import {t} from "i18next";
 import "./PersonHeader.css"
+import Delimiter from "../Delimiter";
 
 const PersonHeader = ({person}) => {
     return (
         <div>
             <Typography
                 mx ={{
-                    marginTop: '0.5em',
                     fontStyle: 'oblique',
                     fontWeight: '500',
                 }}
@@ -20,11 +20,10 @@ const PersonHeader = ({person}) => {
                 {person.name}
             </Typography>
 
+            <Delimiter marginTop = '30px' paddingBottom = '50px'/>
+
             <Box
                 className = "imgBox"
-                sx = {{
-                    marginTop: '3em',
-                }}
             >
                 <img
                     className = "mainImg"
@@ -115,10 +114,11 @@ const PersonHeader = ({person}) => {
                 </Box>
             </Box>
 
+            <Delimiter marginTop = '50px' paddingBottom = '50px'/>
+
             <Typography
                 sx = {{
                     fontSize: '1.3rem',
-                    marginTop: '4em',
                     fontStyle: 'italic',
                     textAlign: 'center',
                 }}

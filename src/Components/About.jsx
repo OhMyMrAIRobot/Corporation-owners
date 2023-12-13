@@ -1,6 +1,8 @@
 import { Typography, useTheme} from '@mui/material'
 import Container from '@mui/material/Container'
 import {useTranslation} from "react-i18next";
+import Delimiter from "./Delimiter";
+import React from "react";
 
 export function About() {
     const { t } = useTranslation();
@@ -27,6 +29,8 @@ export function About() {
             >
                 {t("appName")}
             </Typography>
+
+            <Delimiter marginTop = '10px' paddingBottom = '25px'/>
 
             <Typography
                 variant="h6"

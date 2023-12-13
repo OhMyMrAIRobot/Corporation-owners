@@ -19,7 +19,7 @@ const PersonOfTheDay = ({personId}) => {
             }}
             sx={{
                 transition: 'all 0.8s ease',
-                marginTop: '1em',
+                marginTop: '25px',
                 width: 'fit-content',
                 marginLeft: 'auto',
                 marginRight: 'auto',
@@ -78,7 +78,7 @@ const PersonOfTheDay = ({personId}) => {
                 color='text.primary'
                 gutterBottom
                 sx={{
-                    marginTop: '2em',
+                    marginTop: '50px',
                     fontStyle: "oblique",
                     fontWeight: "medium",
                     textAlign: "center",

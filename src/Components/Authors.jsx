@@ -10,7 +10,7 @@ export function Authors() {
     const authors = [
         { path: "/Images/Author1.png", name: t('author1'), link: 'https://github.com/pokroshik' },
         { path: "/Images/img_3.png", name: t('author2'), link: 'https://github.com/OhMyMrAIRobot' },
-        { path: "/Images/img_3.png", name: t('author3'), link: 'https://github.com/MeShok724' },
+        { path: "/Images/Author3.png", name: t('author3'), link: 'https://github.com/MeShok724' },
     ]
 
     return (

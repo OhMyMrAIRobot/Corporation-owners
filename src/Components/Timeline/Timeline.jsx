@@ -19,6 +19,7 @@ const Timeline = ({items}) => {
 
     return (
         <div
+            className = 'TLContainer'
             style={{
                 width: '100%',
                 height: '700px',

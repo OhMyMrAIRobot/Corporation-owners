@@ -2,11 +2,11 @@
     margin-top: 0.5em !important;
 }
 
-.TimelineContentDetails-sc-d7qjm1-5{
+.TLContainer p{
     font-size: 1rem !important;
 }
 
-.TimelineContentDetails-sc-d7qjm1-5,.my-card-subtitle{
+.TLContainer p,.my-card-subtitle{
     font-style: italic;
 }
 

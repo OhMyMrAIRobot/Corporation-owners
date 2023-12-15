@@ -1,0 +1,15 @@
+.my-card-subtitle{
+    margin-top: 0.5em !important;
+}
+
+.bGOvhX{
+    font-size: 1rem !important;
+}
+
+.bGOvhX,.my-card-subtitle{
+    font-style: italic;
+}
+
+.my-title, .my-card-title{
+    font-style: oblique;
+}

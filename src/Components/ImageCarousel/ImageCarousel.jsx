@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from "react-material-ui-carousel";
 import {Box} from "@mui/material";
+import './ImageCarousel.css'
 
 const Item = (props) => {
     return (
@@ -11,8 +12,8 @@ const Item = (props) => {
             }}
         >
             <img
+                className = "Img"
                 style = {{
-                    height: "500px",
                     boxShadow: '-moz-initial',
                     WebkitBoxShadow: '5px 6px 10px grey'
                 }}

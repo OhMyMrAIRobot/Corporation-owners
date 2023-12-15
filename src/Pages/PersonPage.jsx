@@ -3,12 +3,12 @@ import MainContainer from "../Components/MainContainer";
 import {useTranslation} from "react-i18next";
 import {useParams} from "react-router-dom";
 import PersonHeader from "../Components/PersonHeader/PersonHeader";
-import MyTimeline from "../Components/MyTimeline"
-import ImageCarousel from "../Components/ImageCarousel";
+import ImageCarousel from "../Components/ImageCarousel/ImageCarousel";
 import {Typography} from "@mui/material";
 import YouTube from "../Components/YouTube/YouTube";
 import GoogleMap from "../Components/GoogleMap/GoogleMap";
 import Delimiter from "../Components/Delimiter";
+import Timeline from "../Components/Timeline/Timeline";
 
 const HeadText = ({text}) => {
     return (
@@ -48,7 +48,7 @@ const PersonPage = () => {
                     text = {t("timeline")}
                 />
 
-                <MyTimeline
+                <Timeline
                     items={persons[personId].timelineItems}
                 />
 

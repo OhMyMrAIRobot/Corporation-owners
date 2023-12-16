@@ -30,7 +30,7 @@ const Timeline = ({items}) => {
 
                 fontSizes={{
                     cardSubtitle: '1.1rem',
-                    title: '1.7rem',
+                    title: '1.5rem',
                     cardTitle: '1.4rem',
                 }}
 

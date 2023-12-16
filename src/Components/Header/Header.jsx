@@ -34,6 +34,7 @@ export default function Header() {
     const persons = t("persons", { returnObjects: true });
     const navigate = useNavigate();
 
+
     let index = 1;
     const personList = [];
     persons.forEach((person) => {
@@ -196,6 +197,15 @@ export default function Header() {
                                 <TextField
                                     {...params}
                                     label = {t('search')}
+                                    onChange={(event) => {
+                                        for (let i = 0; i < personList.length; i++){
+                                            if (event.target.value !== "" && personList[i].label.toLowerCase().includes(event.target.value.toLowerCase())) {
+                                                setInputValue(personList[i].id)
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    }
                                 />
                             }
                             options={personList}
@@ -203,6 +213,8 @@ export default function Header() {
                                 personList.forEach((person) => {
                                     if (person === value){
                                         setInputValue(person.id)
+                                        navigate(`/Corporation-owners/Persons/${value.id}`);
+                                        window.scrollTo(0, 0);
                                     }
                                 })
                             }
@@ -211,9 +223,9 @@ export default function Header() {
                                 if (event.code === 'Enter' && inputValue !== ""){
                                     navigate(`/Corporation-owners/Persons/${inputValue}`);
                                     window.scrollTo(0, 0);
-
                                 }
                             }}
+
                         />
                     </Search>
                 </Toolbar>

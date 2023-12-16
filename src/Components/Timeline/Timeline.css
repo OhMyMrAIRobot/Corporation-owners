@@ -13,3 +13,7 @@
 .my-title, .my-card-title{
     font-style: oblique;
 }
+
+.my-title{
+    overflow: initial !important;
+}

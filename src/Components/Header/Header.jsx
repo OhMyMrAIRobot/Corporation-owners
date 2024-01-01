@@ -192,7 +192,7 @@ export default function Header() {
                             autoComplete={true}
                             clearOnEscape={true}
                             clearOnBlur={true}
-                            noOptionsText="Нет результатов"
+                            noOptionsText={t('noOpt')}
                             renderInput={(params) =>
                                 <TextField
                                     {...params}
